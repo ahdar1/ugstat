@@ -118,5 +118,55 @@
     "crumbs": [
       "Preface"
     ]
+  },
+  {
+    "objectID": "index.html#workshop-1.-getting-started-with-spss",
+    "href": "index.html#workshop-1.-getting-started-with-spss",
+    "title": "MKTG212 Labs",
+    "section": "Workshop 1. Getting started with SPSS",
+    "text": "Workshop 1. Getting started with SPSS\nTasks: In this workshop, we will label variables, create new ones, and code scales.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#workshop-2.-descriptive-statistics-graphs-and-charts-in-spss",
+    "href": "index.html#workshop-2.-descriptive-statistics-graphs-and-charts-in-spss",
+    "title": "MKTG212 Labs",
+    "section": "Workshop 2. Descriptive statistics, graphs and charts in SPSS",
+    "text": "Workshop 2. Descriptive statistics, graphs and charts in SPSS\nTasks: In this workshop, we will use SPSS to produce descriptive statistics, graphs and charts for different types of variables.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#workshop-3.-crosstabs-and-two-independent-samples-t-test",
+    "href": "index.html#workshop-3.-crosstabs-and-two-independent-samples-t-test",
+    "title": "MKTG212 Labs",
+    "section": "Workshop 3. Crosstabs and two independent samples t-test",
+    "text": "Workshop 3. Crosstabs and two independent samples t-test\nTasks: This is the first of the bivariate analysis workshops. Here we will look at the analysis of 2 sets of nominal data in a cross tabulation and use a Chi-square test to determine whether a significant difference between the groups has occurred. In the second part of the workshop, we will look at the analysis of mean scores, i.e., comparing mean scores of two groups with two independent samples T-test.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#workshop-4.-anova-and-experimentation",
+    "href": "index.html#workshop-4.-anova-and-experimentation",
+    "title": "MKTG212 Labs",
+    "section": "Workshop 4. ANOVA and Experimentation",
+    "text": "Workshop 4. ANOVA and Experimentation\nTasks: Here we will use SPSS to compare the mean scores of two or more nominal groups. Using one-way ANOVA, we will determine if significant differences exists between two groups or more. Then we will look two-way ANOVA, specifically a 2x3 ANOVA between-subject design.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#workshop-5.-regression",
+    "href": "index.html#workshop-5.-regression",
+    "title": "MKTG212 Labs",
+    "section": "Workshop 5. Regression",
+    "text": "Workshop 5. Regression\nTasks: Using correlation we will determine the nature of the association between two sets of interval or ratio data. Then using linear regressions, we will develop a model to examine the influence of a set of independent variables on one dependent variable.",
+    "crumbs": [
+      "Preface"
+    ]
   }
 ]

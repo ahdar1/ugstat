@@ -39,7 +39,14 @@ Any marketing research or quantitative research textbook can be used to support 
 
 ------------------------------------------------------------------------
 
-# Overview
+## Key Statistical Concepts
+
+It is important that you understand the key statistical concepts covered in the module. 
+Without the understanding of these concepts, you will not fully appreciate the contents of the workshops. In addition to the supporting book above, you can read materials on the following website to revisit the key statistical concepts discussed in the class/workshops.
+
+[Key statistical concepts](https://ahdar1.github.io/statconcepts/)
+
+# Workshop Overview
 
 
 ## Workshop [1. Getting started with SPSS](#sec-lab1)
@@ -63,3 +70,4 @@ Tasks: Here we will use SPSS to compare the mean scores of two or more nominal g
 Tasks: Using correlation we will determine the nature of the association between two sets of interval or ratio data. Then using linear regressions, we will develop a model to examine the influence of a set of independent variables on one dependent variable.
 
 {{< pagebreak >}}
+

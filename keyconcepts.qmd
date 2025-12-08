@@ -1,0 +1,103 @@
+---
+title: "Key Concepts"
+format: html
+editor: visual
+---
+
+# Levels of Measurement in Marketing Research
+
+There are four levels of measurement or four types of data known as the NOIR classification: Nominal, Ordinal, Interval, and Ratio.
+
+## Why Should You Care?
+
+As a marketer, you run surveys, track sales, and study customers. The type of data you collect determines: - What questions you can ask. - Which charts you can use. - What statistics you can calculate (average, ranking, etc.). - How you can interpret the results.
+
+Getting this right stops you from making silly mistakes, like calculating the "average" gender or ranking shoe sizes as if they’re preferences.
+
+------------------------------------------------------------------------
+
+## 1. Nominal ("The Category" Level)
+
+-   What it is: Pure labels or categories with **no order, ranking, or mathematical meaning**.
+-   Key Question: "Can I put these into distinct groups?"
+-   Marketing Examples:
+    -   Gender: Male, Female, Non-binary
+    -   Brand Name: Nike, Apple, Coca-Cola
+    -   Marital Status: Single, Married, Divorced
+    -   Yes/No Questions: "Did you purchase this? (Yes/No)"
+    -   Favorite Color: Blue, Red, Green
+-   What you can do: Count them, calculate **mode** (most frequent category), and use pie charts or bar charts.
+-   What you CAN'T do: Calculate an average, rank them, or say one is "more than" another.
+-   Memory Trick: **Nominal** sounds like **"name."**
+
+## 2. Ordinal (The "Rank Order" Level)
+
+-   What it is: Categories with a **meaningful order or rank**, but the *differences between ranks are not equal or known*.
+-   Key Question: "Can I arrange these in a meaningful sequence?"
+-   Marketing Examples:
+    -   Customer Satisfaction: Very Unsatisfied, Neutral, Satisfied, Very Satisfied
+    -   Socioeconomic Status: Low, Middle, High Income
+    -   Contest Placement: 1st place, 2nd place, 3rd place
+    -   Size: Small, Medium, Large
+-   What you can do: Count, mode, and now also **median** (middle value). You can rank them.
+-   What you CAN'T do: Reliably calculate an **average (mean)** or say "the difference between Satisfied and Neutral is the same as between Neutral and Unsatisfied." The "distance" is subjective.
+-   Memory Trick: **Ordinal** sounds like **"order."**
+
+::: callout-important
+While customer satisfaction ratings (like 1-5 stars or "Very Dissatisfied" to "Very Satisfied") or any Likert scales (1= "Strongly Disagree", 7 = "Strongly Agree") are technically ordinal, marketers often treat them as interval data for practical analysis. This is a common and often necessary compromise that lets us use more powerful statistical tools.
+
+If satisfaction is treated as an interval scale. We can calculate its average score. CEOs like it. CEOs don't want to hear "the median satisfaction is 4." They want: ✓ "Our average satisfaction is 3.65" ✓ "That's up from 3.42 last quarter" ✓ "We're aiming for 4.0 by year-end"
+:::
+
+## 3. Interval (The "Equal Distance" Level)
+
+-   What it is: Numeric scales where the **differences between values are meaningful and equal**, but there is **no true zero starting point**.
+-   Key Question: "Can I measure the exact difference between points, but zero doesn't mean 'nothing'?"
+-   Marketing Example:
+    -   Temperature (in Celsius):\*\* The difference between 20°C and 30°C is the same as between 30°C and 40°C. But 0°C doesn't mean "no temperature."
+    -   Calendar Year: 2020, 2021, 2022. The difference between years is equal, but year 0 is arbitrary.
+-   What you can do: Everything from before, **plus** you can now calculate the **mean (average)** and standard deviation, because distances are equal.
+-   The Catch: You **cannot** say "30°C is twice as hot as 15°C" because the zero is arbitrary.
+-   Memory Trick: **Interval** has **equal intervals**.
+
+## 4. Ratio (The "Complete" Level)
+
+-   What it is: The most powerful level. Has **all the properties of Interval data, plus a true, meaningful zero point**.
+-   Key Question: "Can I say 'zero means none' and compare values as multiples?"
+-   Marketing Examples:
+    -   Sales Revenue: \$0 means no sales. \$100 is twice as much as \$50.
+    -   Number of Customers: 0 customers means none. 10 customers is double 5 customers.
+    -   Website Visits: 0 visits means none.
+    -   Time Spent on a Webpage.
+-   What you can do: **Everything!** All statistics: mode, median, mean, and also ratios (e.g., "Product A sold 2.5 times more than Product B").
+-   Memory Trick: **Ratio** lets you make true **ratios** and comparisons.
+
+------------------------------------------------------------------------
+
+## Quick Summary Table
+
++--------------+--------------------+-----------+------------------+-------------------------------------------------------------+-----------------------------------------------------+
+| Level        | Key Property       | Can Rank? | Meaningful Zero? | Marketing Example                                           | Typical Statistic                                   |
++:=============+:===================+:==========+:=================+:============================================================+:====================================================+
+| **Nominal**  | Categories Only    | ❌ No     | ❌ No            | Brand Loyalty (Yes/No)                                      | Mode (Most Frequent)                                |
++--------------+--------------------+-----------+------------------+-------------------------------------------------------------+-----------------------------------------------------+
+| **Ordinal**  | Ordered Categories | ✅ Yes    | ❌ No            | Preference Rating (1 = Least preferred, 5 = Most preferred) | Frequency, Ranks                                    |
++--------------+--------------------+-----------+------------------+-------------------------------------------------------------+-----------------------------------------------------+
+| **Interval** | Equal Intervals    | ✅ Yes    | ❌ No            | Satisfaction (1= Very dissatisfied, 5 = Very Satisfied)     | Mean (Average)                                      |
+|              |                    |           |                  |                                                             |                                                     |
+|              |                    |           |                  |                                                             | Standard Deviation                                  |
++--------------+--------------------+-----------+------------------+-------------------------------------------------------------+-----------------------------------------------------+
+| **Ratio**    | True Zero Point    | ✅ Yes    | ✅ Yes           | Monthly Sales (\$)                                          | Mean, Standard Deviation, & Ratios (e.g., 2x more)  |
++--------------+--------------------+-----------+------------------+-------------------------------------------------------------+-----------------------------------------------------+
+
+------------------------------------------------------------------------
+
+## Real Marketing Scenario: Launching a New Energy Drink
+
+-   **Nominal Data:** *"Which flavour did you choose?"* (Citrus, Berry, Tropical) → Use a **bar chart** to see the most popular flavor (mode).
+-   **Ordinal Data:** *"Rank your preference* → Find most preferred, least preferred flavour.
+-   **Interval/Ratio Data:** *"How many cans did you purchase last month?"* → Calculate the **average** purchase per customer and see if one segment buys **twice as much** (ratio) as another.
+
+**Remember:** The level of measurement is a **ladder**. Data at a higher level (like Ratio) can be treated as a lower level (e.g., you can just categorize age groups → Ordinal), but you lose information. You can't go the other way!
+
+Mastering this helps you ask better questions, choose the right tools, and make smarter, data-driven marketing decisions.

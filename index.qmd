@@ -2,9 +2,6 @@
 
 This is a website for the workshops of MKTG212 (Quantitative Methods).
 
-If you need to brush up your basic statistical skills, please revisit this website that you used in the refresher's week.
-
-
 
 ## The Team
 
@@ -13,6 +10,8 @@ Module leader: [Professor Ahmad Daryanto](https://sites.google.com/view/ahmaddar
 Tutor:
 
 -   [Dr. Rebecca Liu](https://www.lancaster.ac.uk/lums/people/rebecca-liu)
+
+-   [Dr. Wasim Ahmad](https://www.lancaster.ac.uk/lums/people/wasim-ahmad)
 
 ## SPSS Version
 

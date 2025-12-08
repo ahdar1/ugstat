@@ -168,5 +168,375 @@
     "crumbs": [
       "Preface"
     ]
+  },
+  {
+    "objectID": "lab2.html",
+    "href": "lab2.html",
+    "title": "2  Descriptive Statistics, Graphs and Charts in SPSS",
+    "section": "",
+    "text": "2.1 Learning objectives\nData: Dell.sav (available on Moodle).\nThe aim of this second lab exercise is to get you familiar with the SPSS program in terms of further descriptive statistics and basic computations. Through completing this lab you will be able to:\nLast time we focused on producing tables, in this lab we are now focusing on producing charts and instead of using the Analyze menu we will be using the Graphs menu.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Descriptive Statistics, Graphs and Charts in SPSS</span>"
+    ]
+  },
+  {
+    "objectID": "lab2.html#learning-objectives",
+    "href": "lab2.html#learning-objectives",
+    "title": "2  Descriptive Statistics, Graphs and Charts in SPSS",
+    "section": "",
+    "text": "Explore a data set and produce descriptive statistics in graph format.\nProduce descriptive statistic output.\nCompute a new variable based on the data provided.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Descriptive Statistics, Graphs and Charts in SPSS</span>"
+    ]
+  },
+  {
+    "objectID": "lab2.html#charts",
+    "href": "lab2.html#charts",
+    "title": "2  Descriptive Statistics, Graphs and Charts in SPSS",
+    "section": "2.2 Charts",
+    "text": "2.2 Charts\nYou can use the charts from the commands already undertaken in lab 1, however if you want to explore other charts or customize a chart you should use the specifically developed chart tool. If you use SPSS ver 28 and below, click Graphs\\(\\rightarrow\\)Legacy dialogs and then select the type of chart that you want. Starting from SPSS ver 29, SPSS removes the Legacy dialogs where you will see list of graphs that you can use after clicking Graphs.\nTo start off with, try a pie chart for gender (q14_gender), a bar chart for level of education (q11_grade) and a box plot for satisfaction (q4_sat).\nMake sure that you use appropriate titles for your charts and label the axes accordingly. Try exploring counts and percentages as well as the different chart types.\n\n\n\n\n\n\nAttention\n\n\n\nWhen each dialogue box appears you need to select the correct summary. For the bar chart you want to select a simple bar chart with “summaries for groups of cases”, you also want “summaries for groups of cases” for the pie chart but for the box plot you should select “summaries for separate variables”.\n\n\nIf you want to explore putting data labels on your charts and for instance changing the color, in the output widow double click on the chart and it will open up in an editor view as the following screen shot shows\n\n\n\nPie chart\n\n\n\n\n\n\n\n\nTask\n\n\n\nWhich type of chart is best suited to the following types of data: nominal, ordinal, interval or ratio?",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Descriptive Statistics, Graphs and Charts in SPSS</span>"
+    ]
+  },
+  {
+    "objectID": "lab2.html#descriptive-statistics",
+    "href": "lab2.html#descriptive-statistics",
+    "title": "2  Descriptive Statistics, Graphs and Charts in SPSS",
+    "section": "2.3 Descriptive Statistics",
+    "text": "2.3 Descriptive Statistics\nLet’s now try using the Descriptives function using the commands Analyze\\(\\rightarrow\\)Descriptive statistics\\(\\rightarrow\\)Descriptives. Here you can calculate mean, standard deviations and other measures of central tendency and dispersion\n\n\n\n\n\n\nTask\n\n\n\nWhy not try and explore the satisfaction of DELL customers (q4_sat) and also the amount that customers have spent on internet in the 12 month (q16_spent)?",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Descriptive Statistics, Graphs and Charts in SPSS</span>"
+    ]
+  },
+  {
+    "objectID": "lab2.html#computing-new-variables",
+    "href": "lab2.html#computing-new-variables",
+    "title": "2  Descriptive Statistics, Graphs and Charts in SPSS",
+    "section": "2.4 Computing New Variables",
+    "text": "2.4 Computing New Variables\nIt is also important to be able to perform basic manipulations of the data. The most important manipulation is the creation of new variables. Marketing research data is typically collected through the use of multiple item scales. The data from the multiple item scale is then averaged into a single composite measure. Most of the DELL questionnaire is developed from scales used in marketing literature. You should practice creating composite variables for concepts such as Market Maven, Opinion Leadership, and Innovativeness. You can identify which items capture which concept from the variable name which is best seen from the variable view which you can click to from the bottom left hand corner of the screen.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Descriptive Statistics, Graphs and Charts in SPSS</span>"
+    ]
+  },
+  {
+    "objectID": "lab2.html#reliability-analysis---computing-cronbachs-alpha",
+    "href": "lab2.html#reliability-analysis---computing-cronbachs-alpha",
+    "title": "2  Descriptive Statistics, Graphs and Charts in SPSS",
+    "section": "2.5 Reliability Analysis - Computing Cronbach’s alpha",
+    "text": "2.5 Reliability Analysis - Computing Cronbach’s alpha\nBefore creating a new composite variable it is important to check that the items exhibit internal consistency reliability (also discussed in the second lecture). You can do this by selecting the menu options Analyze\\(\\rightarrow\\) Scale\\(\\rightarrow\\)Reliability Analysis. You then select each of the items used to measure the construct.\nConduct a reliability analysis for Opinion Leadership (Variable names: q10_op1, Q10_op2, Q10_op3). If the alpha value given in the output is 0.7 or above then you can create a new composite measure by averaging the items together, knowing that all the items get well as a group.\nIf the alpha is below 0.7 it may be because some items in the scale are reversed coded, or do not get well with the rest. In order to find out which scale items need to be reversed or removed, when the alpha dialog box is open click the statistics tab and then check Scale if item deleted.\nThe alpha value for Opinion Leadership is 0.927 and therefore the three items can be averaged. To do this use the menu commands Transform\\(\\rightarrow\\)Compute. The new variable will appear at the end of the dataset so please look for it in the data view. Note that you will be able to name the new variable whatever you like but I would suggest calling it Opinion_avg.\n\n\n\nComputing mean\n\n\n\n\n\n\n\n\nTask\n\n\n\nWhy not try and explore the new variable you just created? (e.g., report mean, standard deviation, inspect the shape of its distribution, create a boxplot)",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Descriptive Statistics, Graphs and Charts in SPSS</span>"
+    ]
+  },
+  {
+    "objectID": "lab2.html#video",
+    "href": "lab2.html#video",
+    "title": "2  Descriptive Statistics, Graphs and Charts in SPSS",
+    "section": "2.6 Video",
+    "text": "2.6 Video\nBoxplot\nReliability analysis",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Descriptive Statistics, Graphs and Charts in SPSS</span>"
+    ]
+  },
+  {
+    "objectID": "lab2.html#readings",
+    "href": "lab2.html#readings",
+    "title": "2  Descriptive Statistics, Graphs and Charts in SPSS",
+    "section": "2.7 Readings",
+    "text": "2.7 Readings\nFeick, L. F., & Price, L. L. (1987). The market maven: A diffuser of marketplace information. Journal of Marketing, 51(1), 83-97.\nGoldsmith, R. E., Flynn, L. R., & Goldsmith, E. B. (2003). Innovative consumers and market mavens. Journal of Marketing Theory and Practice, 11(4), 54-65.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Descriptive Statistics, Graphs and Charts in SPSS</span>"
+    ]
+  },
+  {
+    "objectID": "lab1.html",
+    "href": "lab1.html",
+    "title": "1  Getting started with SPSS",
+    "section": "",
+    "text": "1.1 Learning objectives\nData: Dell.sav (available on Moodle)\nThe aim of this first lab exercise is to get you familiar with the SPSS program.\nLearning objectives:\nAt the end of this lab, we hope that you will be able to:\nIn this lab we will use a data set from real customers that is available to download from Moodle. The data set contains information from 372 customers collected from a survey of purchasers of Dell PCs and notebooks. With this survey, Dell wants to understand their customers’ primary usage for internet and their customers’ satisfaction with their purchases. Customers also give information about their demographics such as age and gender. Your primary job today is to describe the characteristics of the sample.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Getting started with SPSS</span>"
+    ]
+  },
+  {
+    "objectID": "lab1.html#learning-objectives",
+    "href": "lab1.html#learning-objectives",
+    "title": "1  Getting started with SPSS",
+    "section": "",
+    "text": "Explore a data set and produce descriptive statistics in table format\nTransfer tables into Word",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Getting started with SPSS</span>"
+    ]
+  },
+  {
+    "objectID": "lab1.html#questionnaire-and-data",
+    "href": "lab1.html#questionnaire-and-data",
+    "title": "1  Getting started with SPSS",
+    "section": "1.2 Questionnaire and Data",
+    "text": "1.2 Questionnaire and Data\nBefore opening that data and starting to analyse it, it is very important that you understand what was measured, how it was measured and as a result what level of measurement has been used. As we go on in the course it is very important to understand the distinctions between nominal, ordinal, interval, and ratio data.\n\n\n\n\n\n\nTask\n\n\n\nHave a look at the questionnaire and identify which questions use a nominal, interval, and ratio scale.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Getting started with SPSS</span>"
+    ]
+  },
+  {
+    "objectID": "lab1.html#working-with-spss",
+    "href": "lab1.html#working-with-spss",
+    "title": "1  Getting started with SPSS",
+    "section": "1.3 Working with SPSS",
+    "text": "1.3 Working with SPSS\nOpen the data file Dell.sav, which you must download from Moodle. You should save the data to your own drive and then double-click the file name from windows explorer.\nThere are two different views of the data which can be seen by clicking the bottom left tab. The data view shows the imputed data for each respondent (each row represents a respondent and each column represents a variable or questionnaire item). The variable view shows the detail of what has been measured. The key columns are the Name, Labels and Values columns which give the shortened variable name (e.g. see variable q2_job in the third row), the full details of what has been measured as a label (e.g. please indicate which of these you have ever done on the Internet: Looked for a job) and the Values represent what the imputed numbers represented in the questionnaire (e.g. 0 = “don’t know”, 1 = “looked for a job”, 2= don’t look for a job).\n\n\n\nData View: Now click variable view at the bottom of the window.\n\n\n\n\n\nVariable View",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Getting started with SPSS</span>"
+    ]
+  },
+  {
+    "objectID": "lab1.html#creating-tables",
+    "href": "lab1.html#creating-tables",
+    "title": "1  Getting started with SPSS",
+    "section": "1.4 Creating Tables",
+    "text": "1.4 Creating Tables\nI want you to try and use SPSS on your own (I will come around and answer questions that you have). You can explore the data set as much as you wish but here are some ideas of tables which might be interesting to explore.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Getting started with SPSS</span>"
+    ]
+  },
+  {
+    "objectID": "lab1.html#frequency-tables",
+    "href": "lab1.html#frequency-tables",
+    "title": "1  Getting started with SPSS",
+    "section": "1.5 Frequency Tables",
+    "text": "1.5 Frequency Tables\nThis table allows you to explore only one variable in each table. Use the commands Analyze\\(\\rightarrow\\)Descriptive statistics\\(\\rightarrow\\)Frequencies. If you click on the Charts tab you can also get SPSS to generate bar, pie, and histograms for the variables selected.\nNote that you can get many frequency tables in the one command by selecting multiple variables from the list of those available. To select more than one variable at a time keep the Ctrl button down. The frequency tables will be displayed in the output window.\n\n\n\n\n\n\nTask\n\n\n\nWhy not create a frequency table for the variables named q2_job, q2_trip?\n\n\n\n\n\nData view with menu options displayed\n\n\n\n\n\nOutputs\n\n\n\n\n\n\n\n\nTask\n\n\n\nNow, I want you to do more analysis to be able to answer the following questions:\n1. What can you say about the sample regarding the distribution of the number of hours that customers spend online? (Q1)\n2. What are the proportions of male and female in the sample? (Q14_gender)\n3. What is the percentage of Dell customers in the sample who are willing to joint Dell loyalty program? (Q15_loyal)",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Getting started with SPSS</span>"
+    ]
+  },
+  {
+    "objectID": "lab1.html#getting-help-in-spss",
+    "href": "lab1.html#getting-help-in-spss",
+    "title": "1  Getting started with SPSS",
+    "section": "1.6 Getting Help in SPSS",
+    "text": "1.6 Getting Help in SPSS\nIf you want to find out more about interpreting the frequency table, why not try using the Help tab? Select again Analyze\\(\\rightarrow\\) Descriptive statistics \\(\\rightarrow\\) Frequencies, and click on the Help tab at the bottom. You will find that a new window opens up and provides useful information. SPSS also has a range of support features which can be found using the Help menu. Spend some time looking through the options of particular interest maybe the Statistics Coach, Tutorials and Case Studies – you can click this link Getting help - IBM documentation, which directly take you to the online help page of SPSS ver. 28.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Getting started with SPSS</span>"
+    ]
+  },
+  {
+    "objectID": "lab1.html#cross-tabulations",
+    "href": "lab1.html#cross-tabulations",
+    "title": "1  Getting started with SPSS",
+    "section": "1.7 Cross Tabulations",
+    "text": "1.7 Cross Tabulations\nWhat are the proportions of male vs. female that are willing to join Dell loyalty program? To answer this question, you need to do cross tabulations. Use the commands Analyze\\(\\rightarrow\\)Descriptive statistics\\(\\rightarrow\\)Crosstabs.\nCrosstabs are used to explore the relationship between two categorical variables (e.g., nominal by nominal, nominal vs. ordinal). Use the cells tab to select row or column percentages in order to be able to compare across the groups. The type of percentage will depend on what basis you want to compare i.e. whether the rows or the columns should add to 100%. Note that you can also produce graphs (by checking the Display clustered bar charts option).\n\n\n\n\n\n\nTask\n\n\n\nWhat about exploring the relationship between gender and level of education?",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Getting started with SPSS</span>"
+    ]
+  },
+  {
+    "objectID": "lab1.html#copying-spss-output-into-word",
+    "href": "lab1.html#copying-spss-output-into-word",
+    "title": "1  Getting started with SPSS",
+    "section": "1.8 Copying SPSS output into word",
+    "text": "1.8 Copying SPSS output into word\nFor reports or as a record of what analysis you have done you may want to put your charts and tables into an MS Word document. This is straight forward, all you need to do is position the cursors on the SPSS output (chart or table) and right click, select copy and paste the table or graph into your MS Word document.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Getting started with SPSS</span>"
+    ]
+  },
+  {
+    "objectID": "lab1.html#codebook",
+    "href": "lab1.html#codebook",
+    "title": "1  Getting started with SPSS",
+    "section": "1.9 Codebook",
+    "text": "1.9 Codebook\nIf you use a paper-and-pencil survey, you need to enter the data manually. Before you enter the data into an SPSS data view window, I recommend that you create a codebook in advance. A codebookt contains names and descriptions of variables and coding for response answers including missing values, which is built directly from your questionnaire. A codebook is very useful and handy to place on your desk when you are working on your data where you quickly check the variables that you use, and communicate the SPSS outputs to your team members.\nI also recommend that you also create a codebook when you use an online survey (e.g., https://lancasteruni.eu.qualtrics.com. Online surveys like qualtrics.com enable you to import data into an SPSS format (.sav). However, you may need to clean this data before you can use it (you may not need to do so if you want a quick report). For instance, the column label in the SPSS variable view window will be written by the software automatically. When you have a codebook, you can leave this column as blank and adjust the variable names as the way they are written in your codebook.\nExample of a codebook\n\n\n\n\n\n\n\n\n\n\nVariable\nConstruct\nStatement\nResponse\nSource\n\n\n\n\nq1_online\nAmount of hours spent online\nApproximately how many hours per week do you spend online? (This would be the total from all the locations you might use)\n1= Less than 1 hour\n2=1-5 hours\n3=6-10 hours\n4=11-20 hours\n5=21-40 hours\n6=41 hours more\n99=Missing values\nSelf-developed\n\n\n…\n…\n…\n…\n\n\n\nq4_sat\nSatisfaction Overall\nHow satisfied are you with your DELL computer system?\n1= Very dissatisfied\n2 = Somewhat dissatisfied\n3 = Somewhat satisfied\n4 = Very satisfied\n99 = Missing values\nAdapted from Oliver(1993)",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Getting started with SPSS</span>"
+    ]
+  },
+  {
+    "objectID": "lab3.html",
+    "href": "lab3.html",
+    "title": "3  Crosstabs and Two Independent Samples T-test",
+    "section": "",
+    "text": "3.1 Learning objectives\nData: Dell.sav (available on Moodle)\nThe aim of this third lab is to help you to use SPSS to examine group differences based on demographic factors. In this lab we will cover:",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Crosstabs and Two Independent Samples T-test</span>"
+    ]
+  },
+  {
+    "objectID": "lab3.html#learning-objectives",
+    "href": "lab3.html#learning-objectives",
+    "title": "3  Crosstabs and Two Independent Samples T-test",
+    "section": "",
+    "text": "Chi-square test\nThe two independent samples t test",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Crosstabs and Two Independent Samples T-test</span>"
+    ]
+  },
+  {
+    "objectID": "lab3.html#chi-square-test",
+    "href": "lab3.html#chi-square-test",
+    "title": "3  Crosstabs and Two Independent Samples T-test",
+    "section": "3.2 Chi-square Test",
+    "text": "3.2 Chi-square Test\nThe chi-square test is useful for determining if differences exist between two categorical variables. This test can be used to substantiate perceived associations when calculating crosstabs such as those that you did in lab 1. Let’s say that you want to explore if there is an association between gender (Q14_gender) and number of hours spent on internet (Q1_online). A chi-square test would be useful to assess this.\nAs in lab 1, use the menu options Analyze\\(\\rightarrow\\)Descriptive statistics\\(\\rightarrow\\)Crosstabs. I prefer to insert q14_gender into column and q1_online into row window–this way, you will see the distribution of gender within each category of q1_online. Select the statistics tab and click on the Chi-square option. Note that you can also click on Phi and Cramer’s V to get an indication of the strength of the association.\nUsing the cells tab you should also select row or column percents to help you to see the pattern of association (in this example, I prefer to select row percentages)\nIn the output window you will see that three (or four with the addition Phi and Cramer’s V) tables are produced. You can ignore the Case Processing Summary.\nThe second table is the crosstab table that you produced in lab 1 and the third table Chi-Square Tests gives you the new results. You will see that you have a table and graph like the one below for the gender by online crosstabs.\n\n\n\nFrequency Table\n\n\n\n\n\nClustered Bar Chart\n\n\nThe p-value associated with the crosstabs is given by the following table\n\n\n\nSPSS Output: Chi-Square Tests\n\n\nThe most important column within the table is the “Asymp. Sig. (2-sided)”. This is the p-value column and the result above indicates that there is an evidence of an association between the rows and columns (because the p-value is smaller than 0.05), in this case between gender of the consumer and number of hours online. It is important to look at the proportion of consumers in each of the six groups.\nIf there was a statistically significant association you would ask the following:\n\nWhere do you see the association between the proportions of consumers?\nHow strong is the association?\n\n\n\n\n\n\n\nTask\n\n\n\nHave a look at the clustered bar chart, and explain the pattern of the association between hours spend online and gender. Is the association significant? (inspect the p-value of the Pearson Chi-Square)\n\n\n\n\n\n\n\n\nTask\n\n\n\nBased on the Phi value, assess the strength the association between hours spend online and gender?\n\n\n\n\n\nEffect size\n\n\n\n\n\n\n\n\nWhat a Phi value tells us\n\n\n\nPhi tells us about the strength of an association. Its value ranges from 0 to 1. Cohen (1988) provides the following guideline:\n\n0.1 is considered small\n0.3 medium\n0.5 large\n\n\n\n\n3.2.1 Post-Hoc Test\nIf the association were significant, you would want to know further which group comparisons are actually significantly different. This is called post-hoc tests or multiple comparison tests. In essence, you want to test all pairwise comparisons to detect where the significant occurs. For example, is the proportion of male vs female significantly different within “less than 1-hour”, within “1-5 hours” group, etc?\nHow?\nUse the menu options Analyze\\(\\rightarrow\\)Descriptive statistics\\(\\rightarrow\\)Crosstabs. Insert gender into “Columns” and q1_online into “rows”. Click Cells tab on the right, then TickRow percentages. Under z-test, tickCompare columns proportionsandAdjust p-values (Bonferroni method)`.\nWhat does SPSS do with “Adjust p-values”? The answer is that SPSS will conduct z-tests for each comparison. Because of conducting multiple comparisons tests, the significance level at each test should not be 5% anymore. It should be divided by the number of comparisons. For example, if you have 6 pairwise comparisons, the sig. level at each test would be 0.05/6=0.008. This is to make sure that all comparisons tests were maintained at alpha=5%. If you do not adjust it and use alpha=5% in each of the pairwise tests, the probability of getting at least one significant result due to chance is high.\n\n\n3.2.2 Post-Hoc Test Output\nThe output of the post-hoc test is given below\n\n\n\nOutput of the post-hoc test\n\n\n\n\n\n\n\n\nTask\n\n\n\nLooking at the output of the post-hoc test, what do you conclude?",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Crosstabs and Two Independent Samples T-test</span>"
+    ]
+  },
+  {
+    "objectID": "lab3.html#two-independent-samples-t-test",
+    "href": "lab3.html#two-independent-samples-t-test",
+    "title": "3  Crosstabs and Two Independent Samples T-test",
+    "section": "3.3 Two Independent Samples T Test",
+    "text": "3.3 Two Independent Samples T Test\nThis test allows you to explore differences in mean values across two groups e.g., between low vs. high-income groups; male vs. female consumers; those who received a reward vs. nothing; those who get a flu jab vs. placebo, country A vs. country B, etc.\nNow, we want to assess if there are differences in the Opinion of Leadership (average scores of q10_op1, q10_op2, q10_op3) across gender (q14_gender).\nAs in the previous lab, you need to conduct reliability analysis to find out whether the three items of Opinion Leadership get well together, if yes, then you need to create a composite score by taking the average of the three items (I would suggest that you name the new variable as Opinion_avg).\nIn this lab, you will test following hypothesis:\nH0: Opinion leadership of male consumers = Opinion leadership of female consumers.\nH1: Opinion leadership of male consumers &gt; Opinion leadership of female consumers.\n\n\n\n\n\n\nTask\n\n\n\nThe above alternative hypothesis is directional. Formulate a non-directional alternative hypothesis instead.\n\n\n\n\n\n\n\n\nWarning\n\n\n\nNote that when using a two independent samples test, the grouping variable (e.g., gender) is a qualitative variable – nominal or ordinal, and the test variable (e.g., amount money spent, scores on opinion leadership) is always a quantitative variable – interval or ratio.\n\n\nTo conduct a T test, use the menu options Analyze\\(\\rightarrow\\)Compare means\\(\\rightarrow\\)Independent- Samples T test. The test variables will be Opinion_avg. The grouping variable is gender. You need to “define groups” this means telling SPSS that gender is measured using the numbers 1 and 2 (you will see from the data view that loyalty card status is coded as 1 and 2). By default, ‘Estimates effect size’ was ticked’.\n\n\n\n\n\n\n3.3.1 Outputs\nIn the output window you will have three tables, the first giving the “Group Statistics”, the second giving the results of the “Independent Samples Test” (The important column is the sig. columns which give the p-values.), and the third gives the estimate of the effect size.\nFirst, we need to look at the descriptive statistics to get a clear picture of the mean score of female vs. male on Opinion_avg, and assess the difference between the means.\n\n\n\n\n\n\n\n\n\n\n\nTask\n\n\n\nLook at the descriptive statistic above, say something about the mean scores and their standard deviations.\n\n\nNow, let us discuss the second table.\n\n\n\n\n\nThe second column in the table gives the significance value for Levene’s test (Block 1). This tells you if you can assume that the variance for the groups is equal, which cannot be assumed for this example and therefore when interpreting the result of the T-tests you should look at the p-value for “equal variances not assumed” (bottom row of Block 2). The p-value associated with the one-sided test was circled because our alternative hypothesis was directional (the males’ scores is higher than the females’ scores).\n\n\n\n\n\n\nTask\n\n\n\nThe one-sided p-value in the second block is significant (circled in green), what do you conclude?\n\n\n\n\n3.3.2 Is the Difference Practically Meaningful?\nIf the mean difference is significant. We should ask if the different is meaningful or not. To answer this question, we need to assess the effect size table.\nWhat is effect size? Imagine that if you took a paracetamol when you had a migraine and the pill reduces the pain slightly but it is not really helping you much – so the effect of the pill is small.\n\n\n\n\n\n\nGuidelines on the effect size of mean difference (Cohen 1988)\n\n\n\nd = 0.2 is considered small\n0.5 medium\n0.8 large\nFor example, if the difference between two groups’ means &lt; 0.2 standard deviations, despite the difference being significant, it is not practically meaningful.\n\n\nLet us look at the effect size output below:\n\n\n\n\n\n\n\n\n\n\n\nTask\n\n\n\nLook at the Cohen’s d in the above table, what does it tell you?\n\n\n\n\n3.3.3 Interpretation of the Findings\nLooking at the descriptive statistics and statistical results, we can conclude that there are statistically significant differences between male and female consumers on their ratings on opinion leadership. Specifically, male consumers have a higher rating of opinion leadership compared to that of female consumers (\\(M_{Male} = 4.66\\) vs. \\(M_{Female} = 3.77\\), Cohen’s d = 0.45). Furthermore in terms of the variability in the opinion leadership across the two groups (male and female consumers), the Levene’s test show that there are differences in the spread, that is, the variability in the opinion of leadership is not the same for both groups (\\(SD_{Male} = 1.87\\) vs. \\(SD_{Female} = 2.03\\)).\n\n\n\n\n\n\nTask\n\n\n\nWhy not investigating if there are differences in the satisfaction level between those who are willing to participate in Dell loyalty program and those who are not.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Crosstabs and Two Independent Samples T-test</span>"
+    ]
+  },
+  {
+    "objectID": "lab3.html#video",
+    "href": "lab3.html#video",
+    "title": "3  Crosstabs and Two Independent Samples T-test",
+    "section": "3.4 Video",
+    "text": "3.4 Video\nOne-sample T-test\nTwo independent samples T-test\nCrosstabs",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Crosstabs and Two Independent Samples T-test</span>"
+    ]
+  },
+  {
+    "objectID": "lab3.html#readings",
+    "href": "lab3.html#readings",
+    "title": "3  Crosstabs and Two Independent Samples T-test",
+    "section": "3.5 Readings",
+    "text": "3.5 Readings\nCohen, J. (1988). Statistical power analysis for the behavioral sciences, 2nd ed. Lawrence Erlbaum.\nFeick, L. F., & Price, L. L. (1987). The market maven: A diffuser of marketplace information. Journal of Marketing, 51(1), 83-97.\nGoldsmith, R. E., Flynn, L. R., & Goldsmith, E. B. (2003). Innovative consumers and market mavens. Journal of Marketing Theory and Practice, 11(4), 54-65.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Crosstabs and Two Independent Samples T-test</span>"
+    ]
+  },
+  {
+    "objectID": "lab4.html",
+    "href": "lab4.html",
+    "title": "4  ANOVA and Experimentation",
+    "section": "",
+    "text": "4.1 Learning objectives\nData: MBGshort.sav (available on Moodle)\nThe aim of this lab is to help you to use SPSS to analyze data from an experimentation. Specifically, we want to examine mean differences across three experimental groups (one-way ANOVA design).\nLearning objectives: At the end of this lab, we hope that you will be able to\nIn this lab, we are going to look at how one-way ANOVA can be used to extend the two independent samples T test to look for means differences across three or more groups and secondly to show how data resulted from manipulation of more than one factor can be analyzed by extending one-way ANOVA method. For instance, to look at how types of return condition facilitated by money-back guarantees (MBG for short) (No MBG, 15 days, 30 days) and types of product (search vs. experience product) influence perceived product quality. We focus our attention to between-subject ANOVA designs where each respondent is randomly assigned to one of the experimental conditions.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>ANOVA and Experimentation</span>"
+    ]
+  },
+  {
+    "objectID": "lab4.html#learning-objectives",
+    "href": "lab4.html#learning-objectives",
+    "title": "4  ANOVA and Experimentation",
+    "section": "",
+    "text": "Analyze data from a one-way ANOVA (Analysis of Variance) experiment.\nProduce and interpret basic SPSS outputs from a two-way ANOVA experiment.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>ANOVA and Experimentation</span>"
+    ]
+  },
+  {
+    "objectID": "lab4.html#mean-differences-across-three-or-more-groups",
+    "href": "lab4.html#mean-differences-across-three-or-more-groups",
+    "title": "4  ANOVA and Experimentation",
+    "section": "4.2 Mean Differences Across Three or More Groups",
+    "text": "4.2 Mean Differences Across Three or More Groups\nOne-way ANOVA can also be used to explore differences in a variable across three or more groups. This is more useful than the two independent sample T test simply because it can be used for more groups and can tell us where the location of the differences. For instance you might find significant mean differences on perceived product quality across three groups (e.g., No MBG, 15 days, and 30 days) and to be more specific, the 15 days and 30 days group do not differ. But perceived product quality of participants in the No MBG group is different than those in the 15 days and 30 days group.\nIn this part, we are going to use the data collected by a former Advanced Marketing Management student at Lancaster University for his dissertation about the effect of MBG on perceived durability of a product. He created an experiment by devising three different scenarios where each scenarios contains information about each of MBG conditions (No MBG, 15 days, 30 days). Respondents were randomly assigned to read one of three different questionnaires. In each questionnaire, he put an image of a product (he chose a laptop) and information about the MBG condition. Other information across different questionnaires was kept similar (e.g., product specification, laptop price, etc).\n\n\n\nAn example of stimulus used in the 30 days MBG condition. This image was created by William, a former AMM student for his MSc dissertation\n\n\nLet us explore if the difference exist in the perceived product durability across the three groups MBG. We will use quality5 (i.e., ‘the product of this offer would be likely to be durable’) as the dependent variable.\nTo conduct an ANOVA, use the menu options Analyze\\(\\rightarrow\\)Compare means\\(\\rightarrow\\)One-way ANOVA. Click Options then tick Descriptive. You can also tick Options\\(\\rightarrow\\)means plot to display a graph that shows the means of the three groups Click Continue then OK. The dependent variable is quality5 (i.e., ‘the product of this offer would be likely to be durable’). The factor is tMBG.\nIn the output window the SPSS produces the Descriptive table and ANOVA table.\n\n\nThe ANOVA table reveals that perceived product durability differ across the experimental groups because the sig-value is less than 5%. The descriptive table gives an indication of why the differences exist. No MBG group has a lower mean compared the 15-days and 30-days group. The 15-days and 30-days groups are similar. However, you need to do additional test to get more details about the differences. Let’s try again putting some important options.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>ANOVA and Experimentation</span>"
+    ]
+  },
+  {
+    "objectID": "lab4.html#homogeneity-of-variance-and-post-hoc-tests",
+    "href": "lab4.html#homogeneity-of-variance-and-post-hoc-tests",
+    "title": "4  ANOVA and Experimentation",
+    "section": "4.3 Homogeneity of Variance and Post-Hoc Tests",
+    "text": "4.3 Homogeneity of Variance and Post-Hoc Tests\n\n4.3.1 Homogeneity of Variance Test\nRepeat the analysis above and click the Options tab. Check on Options and tick Homogeneity of Variance test. To determine which of the three groups differ, you can do what is called a Post Hoct test - click Post Hoc. There are many tests available. Among many options, check Scheffe for situation where Equal Variances Assumed; check Games-Howell under Equal Variances Not Assumed.\nHomogeneity variances test determines whether you would use Scheffe or Games-Howell test. You use this rule:\n\n\n\n\n\n\nTip\n\n\n\nIf sig-value &lt; 0.05, use Games and Howell, otherwise use Scheffe\n\n\n\n\n\n\n\nThe sig-value of the homogeneity of variance test is 0.906, therefore you focus on the outputs of the Scheffe test in the next table. Let us interpret the results of the Scheffe test.\n\n\n4.3.2 Post Hoc Test\nIn the SPSS outputs, you have the following table\n\n\n\nPost Hoc Tests\n\n\nYou can see from the above table that No MBG is not statistically different from 15 days (p = 0.08) and 15 days is not statistically different from the 30 days (p = 0.766). But no MBG has a statistical difference with the 30 days (p = 0.013) (the p-value between No MBG and 15 days are close to significant, if sample size is large, it would be likely to be significant). The next output from the Scheffe test below clarifies the difference.\n\n\n\nHomogenous Subsets",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>ANOVA and Experimentation</span>"
+    ]
+  },
+  {
+    "objectID": "lab4.html#video",
+    "href": "lab4.html#video",
+    "title": "4  ANOVA and Experimentation",
+    "section": "4.4 Video",
+    "text": "4.4 Video\nOne-way ANOVA",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>ANOVA and Experimentation</span>"
+    ]
+  },
+  {
+    "objectID": "lab5.html",
+    "href": "lab5.html",
+    "title": "5  Regression",
+    "section": "",
+    "text": "5.1 Learning objectives\nData: RobotGLP.sav (available on Moodle)\nThe aim of this lab is to help you to use SPSS to conduct regression analysis, which is useful in explaining the relationship between a set of independent variables and a dependent variable.\nAt the end of this lab, we hope that you will be able to",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Regression</span>"
+    ]
+  },
+  {
+    "objectID": "lab5.html#learning-objectives",
+    "href": "lab5.html#learning-objectives",
+    "title": "5  Regression",
+    "section": "",
+    "text": "Understand the meaning of independent and dependent variables\nSelect appropriate independent variables to explain a dependent variable\nProduce and interpret basic SPSS outputs for multiple regression\nUnderstand the meaning of multicollinearity, how to detect and remedy it\n\n\n\n\n\n\n\nImportant\n\n\n\nFYI, many students of the previous cohorts used regression when they wrote their MSc dissertations.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Regression</span>"
+    ]
+  },
+  {
+    "objectID": "lab5.html#why-regression",
+    "href": "lab5.html#why-regression",
+    "title": "5  Regression",
+    "section": "5.2 Why Regression",
+    "text": "5.2 Why Regression\nIn marketing research, we often need to determine the impact of a set of marketing variables on one variable – a factor we want to understand or predict. Furthermore, among those variables we may want to find out which variables matter most, and which variables are not so important that we can ignore. Regression analysis can help us findings the answers to these questions.\nIn this workshop, we want to investigate factors that influence consumers’ decision to join a green loyalty program – This LP encourages behaviours from hotel guests that are good for environment (e.g., reuse towels).\n\n\n\nHotel receptionist (Image courtesy of Jingxi)\n\n\nIn this lab, we consider the following case. A hotel manager who recently launch a green loyalty program (GLP) wants to know about factors that affect consumers’ intention to join the hotel GLP. The hotel manager decides to develop a survey and asks the hotel’s guests to fill in an offline survey. The survey form was handed in to hotel guests by a frontline service robot (see the image above). The survey contains items to measure the following constructs:\n\nIntention to join the green loyalty program\nAnticipated guilt if not joining the green loyalty program\nPerceived attractiveness of hotel receptionist\nAge\nGender\n\nAnticipated guilt, Perceived Attractiveness, Age, Gender are called the independent variables and Intention to join the green loyalty program is the dependent variable. The notion of the dependent variable comes from our prediction that its value depends on the values of the independent variables. The relationship between Intention to join the green LP the and the four independent variables can be written as:\nIntention to join the green LP ~ Anticipated Guilt + Perceived Attractiveness + Age + Gender + error.\nYou can read the above expression as a consumer’ intention to join the green loyalty program is influenced by the consumer’s anticipated of guilt, perceived attractiveness, age, and gender, and some unknown factors represented by an error term. The relationship can be represented by a mathematical expression as below. The names of the variables are shortened.\n\\[\\begin{equation}\nIntent = \\beta_0 +  \\beta_1 * Guilt + \\beta_2 * Attract + \\beta_3 * Age + \\beta_4 * Gender.\n\\end{equation}\\]\nwhere \\(\\beta_0\\), \\(\\beta_1\\), \\(\\beta_2\\), \\(\\beta_3\\), and \\(\\beta_4\\) are parameters that capture the impact of each of the independent variables on intention.\nWe use regression procedure in SPSS to find out the estimates for all parameters using sample data (\\(\\beta_0\\) is just a constant so it is not of our interest).\n\n\n\n\n\n\nImportant\n\n\n\nVariable Intent, Guilt, and Attract were average scores of a multi-item scale where each item in the scale were measured using a Likert scale ranging from 1 = strongly disagree to 7=strongly agree. Age is a continuous variable, and Gender is a 0,1 variable.\n\n\nIf you want to examine whether Guilt is a significant factor, then you want to test \\(H0\\): \\(\\beta_1=0\\) against \\(H1\\): \\(\\beta_1 \\ne 0\\). SPSS will report the p-value associated with \\(H0\\). If p-value is less than 0.05, you reject \\(H0\\) otherwise retain it. If you reject \\(H0\\), you can conclude that Guilt is a significant factor that influences intent.\nIf you hypothesize that Guilt is a significant factor and has a positive impact on satisfaction, then you want to test \\(H0\\): \\(\\beta_1=0\\) against \\(H1\\): \\(\\beta_1 &gt; 0\\). SPSS will report the p-value associated with \\(H0\\). You have to divide the p-value by 2. If the p-value/2 is less than 0.05, you reject \\(H0\\) otherwise retain it. If you reject \\(H0\\), you can conclude that Guilt has a significant positive influence on Intent.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Regression</span>"
+    ]
+  },
+  {
+    "objectID": "lab5.html#conducting-multiple-regression-with-spss",
+    "href": "lab5.html#conducting-multiple-regression-with-spss",
+    "title": "5  Regression",
+    "section": "5.3 Conducting Multiple Regression with SPSS",
+    "text": "5.3 Conducting Multiple Regression with SPSS\nOpen RobotGLP.sav – Thanks to Jingxi for allowing us to use a subset of her data to test the above model.\nTo conduct a regression analysis in SPSS, click the following: Analyze\\(\\rightarrow\\)Regression\\(\\rightarrow\\)Linear.\nEnter Intent into the dependent variable box.\nEnter Guilt,Attract, Age,Gender` into the independent variable(s) box.\n\n\n\n\n\nClick OK\nSPSS produces four tables. The first one does not offer much information. Therefore, we focus our attention to the next three tables.\n\nANOVA table: Is the model meaningful?\n\n\nThis table tells whether or not the model is meaningful. If the sig value is less than 0.05, then the model is meaningful. If p-value is greater than 0.05, then model should be dismissed and don’t interpret other outputs. In this example, the sig. value is less than 0.05; therefore we have a meaningful model. We can proceed with the next output.\n\nModel Summary table: How good is the model?\n\nHaving known the model is meaningful, how do we know whether it is good enough? The Model Summary table provides the answer to this question.\n\nThe model summary table tells you how well the independent variables explain variation in the dependent variable. The adjusted \\(R^2\\) is 0.311 indicating that about 31% of the variation in the intention score is explained by the four independent variables (Guilt, Attract, Age, and Gender). Theoretically, the maximum possible value for adjusted R-square is 100% indicating a perfect model!\nAdjusted \\(R^2\\) is \\(R^2\\) that is adjusted for the number of independent variables in the model. The more independent variable you have in the model, the larger the \\(R^2\\) will be. The adjusted \\(R^2\\) prevents the inflation. You can use the following convention to qualify the impact of the set of the independent variables on the dependent variable1:\n\\(R^2\\) ≥ 0.02 small effect\n≥ 0.13 medium\n≥ 0.26 large\n\n\n\n\n\n\nImportant\n\n\n\nKnowing the adjusted \\(R^2\\), indicate the strength of the impact of Guilt, Attract, Age, and Gender.\n\n\n\n\n\n\n\n\nWarning\n\n\n\nMaximizing \\(R^2\\) value should not be your main goal in regression. Do not be tempted to select variables with the aim of increasing \\(R^2\\) value. \\(R^2\\) value in social sciences are typically in the range of 0.1 to 0.5. Selecting variables should be motivated by theories.\n\n\n\nCoefficients\n\n\nThis table tells us which of the independent variables significantly explain or predict the dependent variable. In this case three variables significantly explain Intent. These are Guilt, Attract, and Age, whereas Gender is not significant. Furthermore, the standardized beta values tell us which variable has the strongest impact on Intent. In this case Attract is the strongest predictor followed by Guilt and Age.\n\n\n\n\n\n\nTask\n\n\n\nIf you want to make a prediction, use the unstandardized coefficients (B). If a female respondent aged 20 assigned a rating of three on Guilt, Attract can you predict her intention level? (round-off your answer)",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Regression</span>"
+    ]
+  },
+  {
+    "objectID": "lab5.html#multicollinearity-problems",
+    "href": "lab5.html#multicollinearity-problems",
+    "title": "5  Regression",
+    "section": "5.4 Multicollinearity Problems",
+    "text": "5.4 Multicollinearity Problems\nHigh correlation among independent variables is problematic in multiple regression because it is hard for us to determine the individual contribution of each of the independent variables in the model. For example, if Attract is highly correlated with Guilt, then we cannot conclude that Attract have the strongest influence on Intent because Guilt also gives contribution to the magnitude of Attract-Intent relationship (it looks stronger than it should be). In other words, the coefficients associated with the regression estimates are biased – not the same as their true population values.\nThe situation where an independent variable is highly correlated with another variable is referred to as multicollinearity problem. To diagnose whether multicollinearity exists, you can check it in two ways.\n\nInspect the correlation coefficient among the independent variables. To do correlation analysis in SPSS, follow this step: Analyze\\(\\rightarrow\\)Correlation\\(\\rightarrow\\)Bivariate. If two variables is highly correlated with the correlation coefficient is larger than 0.9, your model may suffer from a multicollinearity problem. In practice, you should be cautious, if the correlation is 0.7.\n\n\n\n\n\n\n\nTask\n\n\n\nCheck the correlation coefficients among the predictors in the model.\n\n\n\nRerun your regression.\n\n\nClick: Analyze\\(\\rightarrow\\)Regression\\(\\rightarrow\\)Linear.\nClick Statistics options.\nSelect Collinearity diagnostic. Click Continue and Click OK.\nInspect the VIF (Variance Inflation Factor values in the output.\n\n\n\n\n\n\n\nTip\n\n\n\nMulticollinearity exists if VIF (variance inflation factor) &gt; 10.\n\n\n\n\n\n\n\n\n\nTask\n\n\n\nSee the above output, does the model suffer from a multicollinearity problem?",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Regression</span>"
+    ]
+  },
+  {
+    "objectID": "lab5.html#if-multicollinearity-exists",
+    "href": "lab5.html#if-multicollinearity-exists",
+    "title": "5  Regression",
+    "section": "5.5 If Multicollinearity Exists",
+    "text": "5.5 If Multicollinearity Exists\nWhat should you do if multicollinearity exists?\nYou can deal with it using one of the following techniques:\n\nOmit one or more highly correlated independent variables\nCreate a composite variable e.g., by taking the average score of two variables if the two variables causes multicollinearity averaging or using Principle Component Analysis (beyond the scope of our workshops)\nUse the model that suffers from multicollinearity but for prediction purposes only.\nCollect more samples",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Regression</span>"
+    ]
+  },
+  {
+    "objectID": "lab5.html#video",
+    "href": "lab5.html#video",
+    "title": "5  Regression",
+    "section": "5.6 Video",
+    "text": "5.6 Video\nRegression with a categorical iv",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Regression</span>"
+    ]
+  },
+  {
+    "objectID": "lab5.html#footnotes",
+    "href": "lab5.html#footnotes",
+    "title": "5  Regression",
+    "section": "",
+    "text": "Ellis, Paul D. 2011. The Essential Guide to Effect Sizes, p.41↩︎",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Regression</span>"
+    ]
   }
 ]

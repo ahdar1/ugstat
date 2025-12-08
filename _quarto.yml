@@ -5,7 +5,7 @@ project:
 book:
   title: "MKTG212 Labs"
   author: "Ahmad Daryanto"
-  date: 11/23/2025
+  date: 12/08/2025
   date-format: long
   chapters:
     - index.qmd

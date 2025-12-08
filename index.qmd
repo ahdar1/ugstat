@@ -25,31 +25,17 @@ SPSS data can be downloaded from [Moodle](https://modules.lancaster.ac.uk/course
 
 Any marketing research or quantitative research textbook can be used to support your learning, in particular, I recommend the following text:
 
+![](images/Malhotra.jpg){width=184 style="float: left; margin-right: 30px; margin-bottom: 20px;"}
 
-::: columns
-::: {.column width="40%"}
+**Malhotra, NK. (2014), Essentials of Marketing Research, London: Pearson.** An excellent text covering both qualitative and quantitative aspects of Market Research. A valuable text well worth adding to your library. Malhotra wrote several textbooks on marketing research. This textbook is one of his finest.
 
-![](images/iqrm_cover.jpg){width="184"}
+<div style="clear: both; margin-bottom: 40px;"></div>
 
-:::
+![](images/iqrm_cover.jpg){width=184 style="float: left; margin-right: 30px; margin-bottom: 20px;"}
 
-::: {.column width="60%"}
+**Daryanto, Ahmad. (2025), [An Introduction to Quantitative Research Methods for Marketing: Tools and Techniques Using SPSS and R](https://www.routledge.com/An-Introduction-to-Quantitative-Research-Methods-for-Marketing-Tools-and-Techniques-Using-SPSS-and-R/Daryanto/p/book/9781032525648?srsltid=AfmBOor0PTqaQJxIXTTzPVyjEkcR-sDaVv3IpaZwtdrmlxbDWMFOKYAe), 1st Edition, Routledge.** This book is written by yours truly. It will be useful for those who wants to learn SPSS in more depth and R. As stated in the publisher website, this is "a very applied text designed to make this complex subject accessible to students with no background in quantitative methods, this book is valuable recommended and core reading for advanced undergraduate and postgraduate." If your laptop is connected to the university's eduroam network, the book can be accessed via [ProQuest Ebook Central](https://ebookcentral.proquest.com/lib/lancaster/detail.action?docID=31807359) or [OneSearch](https://onesearch.lancaster-university.uk/discovery/search?vid=44LAN_INST:LUL_VU1).
 
-Daryanto, Ahmad. (2025), [‘An Introduction to Quantitative Research Methods for Marketing: Tools and Techniques Using SPSS and R’, 1st Edition, Routledge](https://www.routledge.com/An-Introduction-to-Quantitative-Research-Methods-for-Marketing-Tools-and-Techniques-Using-SPSS-and-R/Daryanto/p/book/9781032525648?srsltid=AfmBOor0PTqaQJxIXTTzPVyjEkcR-sDaVv3IpaZwtdrmlxbDWMFOKYAe). This book is written by yours truly. It will be useful for those who wants to learn SPSS in more depth and R. As stated in the publisher website, this is “a very applied text designed to make this complex subject accessible to students with no background in quantitative methods, this book is valuable recommended and core reading for advanced undergraduate and postgraduate.” If your laptop is connected to the university's eduroam network, the book can be accessed via  [ProQuest Ebook Central](https://ebookcentral.proquest.com/lib/lancaster/detail.action?docID=31807359) or [OneSearch](https://onesearch.lancaster-university.uk/discovery/search?vid=44LAN_INST:LUL_VU1).  
-
-:::
-:::
-
-
--   Malhotra, N.K, Birks, D., and Wills, P. (2012) Marketing Research: An applied orientation, 4^th^ edition, London: Prentice-Hall, Pearson. Other books on marketing research by Malhotra are also useful.
-
--   Sarstedt, Marko and Erik Mooi (2014). A Concise Guide to Market Research. Springer. As the title says, this book is concise focusing statistical tests typically conducted in market research. The organization of the chapters in the book match closely with what we cover in this module. You can read the e-version of the first edition via our library website.
-
--   Feinberg, Kinnear, and Taylor. (2013). Modern Marketing Research: Concept, Methods, and Cases, 2^nd^ edition, Cengage. Written by excellent researchers in Marketing, I also like this book. It has plenty of mini cases that help readers to see the application of concepts in practices.
-
-
-
-
+<div style="clear: both;"></div>
 
 ------------------------------------------------------------------------
 

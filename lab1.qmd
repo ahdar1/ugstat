@@ -70,7 +70,7 @@ Why not create a frequency table for the variables named `q2_job`, `q2_trip`?
 
 ## Getting Help in SPSS
 
-If you want to find out more about interpreting the frequency table, why not try using the `Help` tab? Select again **Analyze**$\rightarrow$ **Descriptive statistics** $\rightarrow$ **Frequencies**, and click on the `Help` tab at the bottom. You will find that a new window opens up and provides useful information. SPSS also has a range of support features which can be found using the `Help` menu. Spend some time looking through the options of particular interest maybe the Statistics Coach, Tutorials and Case Studies -- you can click this link [Getting help - IBM documentation](https://www.ibm.com/docs/en/spss-statistics/28.0.0?topic=SSLVMB_28.0.0/statistics_mainhelp_ddita/spss/base/overvw_auto_0.html), which directly take you to the online help page of SPSS ver. 28.
+If you want to find out more about interpreting the frequency table, why not try using the `Help` tab? Select again **Analyze**$\rightarrow$ **Descriptive statistics** $\rightarrow$ **Frequencies**, and click on the `Help` tab at the bottom. You will find that a new window opens up and provides useful information. SPSS also has a range of support features which can be found using the `Help` menu. Spend some time looking through the options of particular interest maybe the Statistics Coach, Tutorials and Case Studies -- you can click this link [Getting help - IBM documentation](https://www.ibm.com/docs/en/spss-statistics/30.0.0), which directly take you to the online help page of SPSS ver. 30.
 
 ## Cross Tabulations
 

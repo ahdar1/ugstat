@@ -15,7 +15,7 @@ Tutor:
 
 ## SPSS Version
 
-We use SPSS version 30, which can launch from **Apporto** app located on the Moodle page of the course. The lab notes used SPSS version 28. Therefore, the output formats of SPSS 30 might be slightly different from those of version 28 but so far, I have not detected any differences! 
+We use SPSS version 30, which can be launched from **Apporto** app located on the Moodle page of the course. I created the lab notes initially using SPSS version 28. I have tried my best to amend the text and outputs discussed in the lab notes using those from ver. 30. Actually, no significant differences between ver. 28 version with those of ver. 30. If you detect any differences, please consult your tutor. The video lectures were still based on ver. 28.
 
 ## Workshop Materials
 

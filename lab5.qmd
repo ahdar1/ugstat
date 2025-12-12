@@ -61,7 +61,14 @@ Variable `Intent`, `Guilt`, and `Attract` were average scores of a multi-item sc
 
 If you want to examine whether `Guilt` is a significant factor, then you want to test $H0$: $\beta_1=0$ against $H1$: $\beta_1 \ne 0$. SPSS will report the p-value associated with $H0$. If p-value is less than 0.05, you reject $H0$ otherwise retain it. If you reject $H0$, you can conclude that `Guilt` is a significant factor that influences `intent`.
 
-If you hypothesize that `Guilt` is a significant factor and has a positive impact on satisfaction, then you want to test $H0$: $\beta_1=0$ against $H1$: $\beta_1 > 0$. SPSS will report the p-value associated with $H0$. You have to divide the p-value by 2. If the p-value/2 is less than 0.05, you reject $H0$ otherwise retain it. If you reject $H0$, you can conclude that `Guilt` has a significant positive influence on `Intent`.
+If you hypothesize that `Guilt` is a significant factor and has a positive impact on satisfaction, then you want to test $H0$: $\beta_1=0$ against $H1$: $\beta_1 > 0$. This is a one-sided test because the alternative hypothesis has a 'greater' sign. **However, SPSS will always report the p-value associated with 2-sided test**. Therefore, you have to divide the reported p-value by 2. If this **halved p-value** (i.e., p-value/2) is less than 0.05, you reject $H0$ otherwise retain it. If you reject $H0$, you can conclude that `Guilt` has a significant positive influence on `Intent`.
+
+::: callout-important
+SPSS will always report the p-value associated with 2-sided test. 
+
+For one-sided test, you have to divide the reported p-value by half.
+
+:::
 
 ## Conducting Multiple Regression with SPSS
 

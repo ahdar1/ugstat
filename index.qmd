@@ -39,12 +39,15 @@ Any marketing research or quantitative research textbook can be used to support 
 
 ------------------------------------------------------------------------
 
-## Key Statistical Concepts
+<!-- This  won't appear in the output 
+## Supplemental reading
 
 It is important that you understand the key statistical concepts covered in the module. 
 Without the understanding of these concepts, you will not fully appreciate the contents of the workshops. In addition to the supporting book above, you can read materials on the following website to revisit the key statistical concepts discussed in the class/workshops.
 
 [Key statistical concepts](https://ahdar1.github.io/statconcepts/)
+
+-->
 
 # Workshop Overview
 

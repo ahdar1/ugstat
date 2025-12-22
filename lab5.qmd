@@ -185,3 +185,58 @@ You can deal with it using one of the following techniques:
 ## Video
 
 [Regression with a categorical iv](https://dtu-panopto.lancs.ac.uk/Panopto/Pages/Viewer.aspx?id=074239e8-f79d-4ffb-8754-ac9400f4f00f)
+
+# SPSS Workshop 5: Quick Task Guide
+
+## 🎯 Core Analytical Tasks
+
+| Task / Objective | SPSS Menu Path | Key Variables / Settings | Key Notes & Interpretation |
+| :--- | :--- | :--- | :--- |
+| **Run a Multiple Regression** | `Analyze` → `Regression` → `Linear...` | **Dependent:** `Intent`<br>**Independent(s):** `Guilt`, `Attract`, `Age`, `Gender` | Tests if a set of independent variables predicts a continuous dependent variable. |
+| **Check Overall Model Fit & Significance** | Output: `ANOVA` Table | N/A | Check the **Sig.** value (p-value). **p < 0.05** means the overall regression model is statistically meaningful. If p > 0.05, do not interpret further. |
+| **Assess Model Explanatory Power** | Output: `Model Summary` Table | Look at **Adjusted R Square** | Indicates the **percentage of variance** in the dependent variable explained by the model. **Guidelines:** ≥ 0.02 (small), ≥ 0.13 (medium), ≥ 0.26 (large). |
+| **Interpret Individual Predictors** | Output: `Coefficients` Table | Check **Sig.**, **B**, and **Beta** columns | **Significance:** `Sig. < 0.05` = variable is a significant predictor.<br>**Strength:** Compare **Standardized Coefficients (Beta)**; higher absolute value = stronger effect.<br>**Prediction:** Use **Unstandardized Coefficients (B)** in the regression equation. |
+| **Diagnose Multicollinearity** | 1. **Correlation:** `Analyze` → `Correlate` → `Bivariate`<br>2. **VIF:** In Linear Regression dialog, click `Statistics` → Check `Collinearity diagnostics` | Check correlation matrix and VIF values | **Problem if:** Correlation between predictors > **0.7** (caution) or > **0.9** (serious).<br>**Or if:** **VIF > 10** in the coefficients table. |
+
+## 💡 Essential Concepts & Step-by-Step Workflow
+
+### 1. The Complete Regression Workflow
+1.  **Run the Regression:** `Analyze` → `Regression` → `Linear`. Specify your dependent (`Intent`) and independent variables (`Guilt`, `Attract`, `Age`, `Gender`).
+2.  **Check Overall Model:** Look at the **ANOVA table**. **Proceed only if Sig. (p) < 0.05**.
+3.  **Check Explanatory Power:** Look at the **Adjusted R²** in the `Model Summary` table.
+4.  **Interpret Predictors:** In the `Coefficients` table:
+    *   Identify significant predictors (`Sig. < 0.05`).
+    *   Use **Beta** to compare the relative strength of significant predictors.
+5.  **Check for Multicollinearity:** Re-run regression with `Collinearity diagnostics` in `Statistics`. Ensure all **VIF values are < 10**.
+
+### 2. Interpreting Key Outputs
+*   **The Regression Equation:** Use the *Unstandardized Coefficients (B)* to form the equation for prediction:
+    `Intent = B₀ + (B₁ * Guilt) + (B₂ * Attract) + (B₃ * Age) + (B₄ * Gender)`
+*   **Making a Prediction (Example from Lab Task):** For a female (`Gender=1`), aged 20, with `Guilt=3` and `Attract=5`:
+    1.  Find the *B* coefficients and constant from your output.
+    2.  Plug into equation: `Intent = B₀ + (B₁*3) + (B₂*5) + (B₃*20) + (B₄*1)`
+    3.  Calculate to predict the intention score.
+*   **One-tailed vs. Two-tailed Tests:** SPSS reports **two-tailed p-values**. For a **one-tailed test** (directional hypothesis, e.g., `H1: β₁ > 0`), **divide the reported p-value by 2**.
+
+### 3. Dealing with Multicollinearity
+If you detect multicollinearity (VIF > 10 or very high correlations), consider these remedies:
+1.  **Remove Variables:** Omit one of the highly correlated independent variables.
+2.  **Combine Variables:** Create a composite score (e.g., average) if the correlated variables measure a similar construct.
+3.  **Purpose-Limited Use:** Use the model **only for prediction**, not for interpreting individual coefficients.
+4.  **Collect More Data:** Increase your sample size.
+
+## ▶️ Step-by-Step Practice Task
+1.  **Run the Analysis:** Open `RobotGLP.sav`. Run `Analyze` → `Regression` → `Linear` with `Intent` as Dependent and `Guilt`, `Attract`, `Age`, `Gender` as Independents. Click `OK`.
+2.  **Interpret Model Fit:**
+    *   **ANOVA Table:** Is the overall model significant (Sig. < 0.05)?
+    *   **Model Summary:** What is the Adjusted R²? How would you describe its size?
+3.  **Interpret Predictors:** In the `Coefficients` table:
+    *   Which variables are significant predictors of `Intent` (Sig. < 0.05)?
+    *   Among the significant ones, which has the strongest effect (largest absolute **Beta** value)?
+4.  **Check for Multicollinearity:**
+    *   Re-run the regression, clicking `Statistics` and checking `Collinearity diagnostics`.
+    *   Check the VIF values in the new `Coefficients` table. Is multicollinearity a problem (VIF > 10)?
+5.  **Make a Prediction:** Use the *Unstandardized Coefficients (B)* to predict the `Intent` score for a 20-year-old female with `Guilt=3` and `Attract=5`.
+
+---
+

@@ -129,3 +129,59 @@ Example of a codebook
 +-----------+------------------------------+---------------------------------------------------------------------------------------------------------------------------+---------------------------+---------------------------+
 
 {{< pagebreak >}}
+
+# SPSS Lab 1: Quick Task Guide
+
+## 📊 Core Analytical Tasks
+
+This table summarizes the main analytical tasks covered in the "Getting Started with SPSS" workshop.
+
+| Task / Objective | SPSS Menu Path | Key Variable Example | Notes / Tips |
+| :--- | :--- | :--- | :--- |
+| **Explore a single variable** | `Analyze` → `Descriptive Statistics` → `Frequencies...` | `q2_job`, `q2_trip` | **Shortcut**: Hold `Ctrl` to select multiple variables at once. |
+| **Create charts (bar, pie, histogram)** | `Analyze` → `Descriptive Statistics` → `Frequencies...` → Click **Charts** tab | Any variable | Select chart type in the dialog box. |
+| **Analyze relationship between two categorical variables** | `Analyze` → `Descriptive Statistics` → `Crosstabs...` | Row: `Q14_gender`<br>Column: `Q15_loyal` | Use the **Cells** button to show row/column **percentages**. |
+| **Copy output to Word** | Right-click on any table or chart in the SPSS output viewer → Select **Copy** → Paste into Word | N/A | Straightforward copy-paste. |
+| **Get help within SPSS** | Use the **Help** menu or click the **Help** tab in any analysis dialog box. | N/A | The **Statistics Coach**, **Tutorials**, and **Case Studies** are useful resources. |
+
+## 💡 Essential Concepts & Best Practices
+
+### Understand Your Data
+Before analyzing, always check the **Variable View**. Pay special attention to these columns:
+*   **Name**: The short variable name (e.g., `q2_job`).
+*   **Label**: The full description of what was measured.
+*   **Values**: The numeric codes and their meanings (e.g., `1 = "looked for a job"`).
+
+### Create a Codebook
+A codebook is a crucial document for any data project. It should include:
+*   Variable names and descriptions.
+*   Full survey questions or constructs.
+*   Coding for all response answers.
+*   Designated codes for missing values (e.g., `99`).
+
+**Example Codebook Snippet:**
+
+| Variable | Construct | Statement | Response Coding |
+| :--- | :--- | :--- | :--- |
+| `q1_online` | Hours spent online | "Approximately how many hours per week do you spend online?" | `1`= Less than 1 hour<br>`2`= 1-5 hours<br>...<br>`99`= Missing |
+| `q4_sat` | Satisfaction | "How satisfied are you with your DELL computer system?" | `1`= Very dissatisfied<br>`2`= Somewhat dissatisfied<br>...<br>`99`= Missing |
+
+### Answering Research Questions
+Use the techniques above to answer specific questions:
+
+| Question | SPSS Procedure | Variables Needed |
+| :--- | :--- | :--- |
+| Distribution of hours online? | **Frequencies** | `Q1` |
+| Proportion of males/females? | **Frequencies** | `Q14_gender` |
+| Percentage willing to join loyalty program? | **Frequencies** | `Q15_loyal` |
+| Relationship between gender and loyalty? | **Crosstabs** | `Q14_gender` & `Q15_loyal` |
+| Relationship between gender and education? | **Crosstabs** | `Q14_gender` & `Q13_edu` |
+
+## ▶️ How to Get Started
+1.  Open the `Dell.sav` data file.
+2.  Switch to **Variable View** to familiarize yourself with the data structure.
+3.  Practice by running **Frequencies** for single variables like `q2_job`.
+4.  Create a **Crosstab** to explore relationships, such as between gender (`Q14_gender`) and education (`Q13_edu`).
+
+---
+

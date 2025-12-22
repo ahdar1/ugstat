@@ -79,3 +79,45 @@ Why not try and explore the new variable you just created? (e.g., report mean, s
 Feick, L. F., & Price, L. L. (1987). The market maven: A diffuser of marketplace information. *Journal of Marketing*, 51(1), 83-97.
 
 Goldsmith, R. E., Flynn, L. R., & Goldsmith, E. B. (2003). Innovative consumers and market mavens. *Journal of Marketing Theory and Practice*, 11(4), 54-65.
+
+# SPSS Lab 2: Quick Task Guide
+
+## 📊 Core Analytical Tasks
+
+| Task / Objective | SPSS Menu Path | Key Variable Examples | Key Notes & Shortcuts |
+| :--- | :--- | :--- | :--- |
+| **Create & Customize Charts** | `Graphs` → Select graph | `q14_gender` (Pie)<br>`q11_grade` (Bar)<br>`q4_sat` (Box Plot) | **Chart Type Logic:**<br>- **Bar/Pie**: Use "Summaries for groups of cases".<br>- **Box Plot**: Use "Summaries for separate variables".<br>- **Edit**: Double-click output chart to open editor for colors, labels, titles. |
+| **Generate Descriptive Statistics** | `Analyze` → `Descriptive Statistics` → `Descriptives...` | `q4_sat`<br>`q16_spent` | Outputs N, Mean, Std. Deviation, Min, Max. |
+| **Check Scale Reliability (Cronbach's Alpha)** | `Analyze` → `Scale` → `Reliability Analysis...` | `q10_op1`, `q10_op2`, `q10_op3` | **Rule:** Alpha ≥ 0.7 = reliable.<br>**Diagnose:** In dialog, click `Statistics` → check `Scale if item deleted`. |
+| **Compute New Composite Variable** | `Transform` → `Compute Variable...` | `MEAN(q10_op1, q10_op2, q10_op3)` → `Opinion_avg` | **Prerequisite:** Only compute after reliability check (Alpha ≥ 0.7). Use `MEAN()` function. |
+| **Explore a New Variable** | Combine: `Descriptives` + `graph` | `Opinion_avg` | Report mean/std. deviation and visualize distribution (e.g., with a boxplot). |
+
+## 💡 Essential Concepts & Best Practices
+
+### 1. Choosing the Right Chart
+*   **Nominal Data** (categories, e.g., `gender`): **Pie Charts** or **Bar Charts**.
+*   **Ordinal Data** (ordered ranks, e.g., `education level`): **Bar Charts** (order categories).
+*   **Interval/Ratio Data** (scores/amounts, e.g., `satisfaction`, `money spent`): **Histograms** or **Box Plots**.
+
+### 2. Composite Variable Workflow
+Always follow this 3-step process when creating a scale from multiple items:
+1.  **Reliability First:** Run `Reliability Analysis`. Proceed only if **Cronbach's Alpha ≥ 0.7**.
+2.  **Compute Average:** Use `Transform` → `Compute Variable` with the `MEAN()` function.
+3.  **Explore the Result:** Analyze your new variable (e.g., `Opinion_avg`) with `Descriptives` and charts.
+
+### 3. Customizing Charts
+For professional graphs, **double-click any chart** in the output to open the **Chart Editor**. You can then:
+*   Add/modify data labels (counts, %).
+*   Change colors, fill patterns.
+*   Edit titles and axis labels.
+*   Adjust scales and fonts.
+
+## ▶️ Step-by-Step Practice Tasks
+1.  **Charts:** Create a pie chart for `q14_gender`, a bar chart for `q11_grade`, and a box plot for `q4_sat`. Remember the different "Summaries" settings.
+2.  **Reliability & Computation:**
+    *   Run `Reliability Analysis` on `q10_op1`, `q10_op2`, `q10_op3`.
+    *   Verify Alpha is high (0.927), then compute `Opinion_avg` using `Compute Variable`.
+3.  **Explore:** Run `Descriptives` on `Opinion_avg` and make a boxplot for it.
+
+---
+*Need a cheat sheet for **Workshop 3 (Crosstabs and t-tests)**? Just ask!*

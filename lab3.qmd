@@ -195,3 +195,68 @@ Cohen, J. (1988). Statistical power analysis for the behavioral sciences, 2nd ed
 Feick, L. F., & Price, L. L. (1987). The market maven: A diffuser of marketplace information. *Journal of Marketing*, 51(1), 83-97.
 
 Goldsmith, R. E., Flynn, L. R., & Goldsmith, E. B. (2003). Innovative consumers and market mavens. *Journal of Marketing Theory and Practice*, 11(4), 54-65.
+
+# SPSS Workshop 3: Quick Task Guide
+
+## 🎯 Core Analytical Tasks
+
+| Task / Test | SPSS Menu Path | Key Variables & Settings | Key Notes & Interpretation |
+| :--- | :--- | :--- | :--- |
+| **Chi-Square Test** (Association between 2 categorical variables) | `Analyze` → `Descriptive Statistics` → `Crosstabs...` | **Row:** `q1_online`<br>**Column:** `q14_gender`<br>**Statistics Tab:** Check `Chi-square`, `Phi and Cramer's V`.<br>**Cells Tab:** Check `Row` or `Column` percentages. | **Significance:** Check `Asymp. Sig. (2-sided)` p-value.<br>**p < 0.05** = significant association.<br>**Strength:** Use the **Phi (φ)** value from the output. |
+| **Independent Samples T-Test** (Compare means between 2 groups) | `Analyze` → `Compare Means` → `Independent-Samples T Test...` | **Test Variable:** `Opinion_avg` (continuous).<br>**Grouping Variable:** `q14_gender` (click `Define Groups`, e.g., 1 & 2).<br>**Options:** 'Estimates effect size' is ticked by default. | **1. Check Variances:** Look at **Levene's Test** p-value.<br> - **p > 0.05**: Use **"Equal variances assumed"** row.<br> - **p ≤ 0.05**: Use **"Equal variances not assumed"** row.<br>**2. Check Significance:** Look at the 2-tailed `Sig.` value in the chosen row. |
+
+## 💡 Essential Concepts, Interpretation & How-To
+
+### 1. Interpreting the Chi-Square Test
+
+*   **Assessing Effect Strength (Phi φ):**
+    *   **φ = 0.1** → Small effect
+    *   **φ = 0.3** → Medium effect
+    *   **φ = 0.5** → Large effect
+
+*   **Post-Hoc Test (if Chi-Square is significant):**
+    If **p < 0.05**, you need to find out *which specific categories* are different.
+    1.  Re-run `Crosstabs`.
+    2.  In the **`Cells`** tab, under **`z-test`**, check:
+        *   `Compare column proportions`
+        *   `Adjust p-values (Bonferroni method)`
+    3.  Look for superscript letters (`a`, `b`) in the output table to identify significant differences between column proportions.
+
+### 2. Interpreting the Independent Samples T-Test
+
+*   **Formulating Hypotheses:**
+    *   **Non-directional:** `H1: Mean of Group A ≠ Mean of Group B`
+    *   **Directional:** `H1: Mean of Group A > (or <) Mean of Group B` (must be specified *before* analysis).
+
+*   **Assessing Practical Importance (Cohen's d):**
+    After a significant t-test, check the effect size table.
+    *   **d = 0.2** → Small effect
+    *   **d = 0.5** → Medium effect
+    *   **d = 0.8** → Large effect
+
+### 3. Variable Requirements & Workflow
+
+*   **For Chi-Square:** **Both variables must be categorical** (Nominal/Ordinal).
+*   **For T-Test:** **One categorical grouping variable** and **one continuous test variable**.
+*   **Composite Variable Reminder:** Before using a scale (e.g., `Opinion_avg`) in a t-test:
+    1.  **Check Reliability:** `Analyze` → `Scale` → `Reliability Analysis` (Cronbach's Alpha ≥ 0.7).
+    2.  **Compute Score:** `Transform` → `Compute Variable` (e.g., `MEAN(q10_op1, q10_op2, q10_op3)`).
+
+## ▶️ Step-by-Step Practice Tasks
+
+1.  **Chi-Square Analysis:**
+    *   Test association: `q14_gender` (Column) vs. `q1_online` (Row).
+    *   Get chi-square statistic, p-value, and Phi.
+    *   **Question:** Is the association significant? How strong is it (Phi)?
+
+2.  **Independent T-Test:**
+    *   Run t-test: `Opinion_avg` by `q14_gender`.
+    *   Check Levene's test, then the correct t-test p-value.
+    *   Check Cohen's d in the effect size table.
+    *   **Question:** Is the mean difference significant? What is the effect size?
+
+3.  **Additional Practice Task:**
+    *   Compare satisfaction (`q4_sat`) between loyalty program groups (`Q15_loyal`).
+
+---
+

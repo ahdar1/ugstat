@@ -63,3 +63,43 @@ You can see from the above table that No MBG is not statistically different from
 ## Video
 
 [One-way ANOVA](https://dtu-panopto.lancs.ac.uk/Panopto/Pages/Viewer.aspx?id=4f7d12dd-f094-46c6-8905-acab010a1756)
+
+# SPSS Workshop 4: Quick Task Guide
+
+## 🎯 Core Analytical Tasks
+
+| Task / Objective | SPSS Menu Path | Key Variables / Settings | Key Notes & Interpretation |
+| :--- | :--- | :--- | :--- |
+| **Run a One-Way ANOVA** (Compare means across 3+ groups) | `Analyze` → `Compare Means` → `One-Way ANOVA...` | **Dependent List:** `quality5`<br>**Factor:** `tMBG` | **Check the ANOVA table:** A **Sig. value < 0.05** means there is a significant overall difference between at least two group means. |
+| **Get Descriptives & Test Homogeneity of Variances** | In One-Way ANOVA dialog, click `Options...` | Check:<br>`Descriptive`<br>`Homogeneity of variance test` | **Descriptives:** Shows group means (e.g., Mean of No MBG, 15 days, 30 days).<br>**Homogeneity Test (Levene's):** Decides which *post-hoc* test to use. |
+| **Run Post-Hoc Tests** (Find *which* groups differ) | In One-Way ANOVA dialog, click `Post Hoc...` | **If variances are equal:** Check `Scheffe`<br>**If variances are NOT equal:** Check `Games-Howell` | **Decision Rule:**<br>1. Look at Levene's Test **Sig.** value.<br>2. **Sig. ≥ 0.05** → Use **Scheffe** results.<br>3. **Sig. < 0.05** → Use **Games-Howell** results.<br>**Interpretation:** In the post-hoc table, pairs with **Sig. < 0.05** are significantly different. |
+
+## 💡 Essential Concepts & Step-by-Step Workflow
+
+### 1. The Complete One-Way ANOVA Workflow
+1.  **Run the Test:** `Analyze` → `Compare Means` → `One-Way ANOVA`. Add your **dependent variable** (e.g., `quality5`) and **factor** (e.g., `tMBG`).
+2.  **Check Assumptions:** In `Options`, select `Descriptive` and `Homogeneity of variance test`. Run.
+3.  **Choose Post-Hoc Test:** Check the **"Test of Homogeneity of Variances"** table.
+    *   **If Sig. ≥ 0.05** → Variances equal. Use **Scheffe**.
+    *   **If Sig. < 0.05** → Variances not equal. Use **Games-Howell**.
+4.  **Run Post-Hoc & Interpret:** Re-open dialog, go to `Post Hoc`, select the correct test (Scheffe or Games-Howell), and re-run. In the post-hoc table, find pairs with **Sig. < 0.05**.
+
+### 2. Interpreting the Outputs
+*   **ANOVA Table:** Tells you **IF** differences exist overall (**Sig. < 0.05** = significant).
+*   **Post-Hoc Table:** Tells you **WHERE** the differences are. **Example from the lab:**
+    *   `No MBG` vs. `30 days`: **Sig. = 0.013** → **Significantly different.**
+    *   `No MBG` vs. `15 days`: **Sig. = 0.080** → **Not significant.**
+    *   `15 days` vs. `30 days`: **Sig. = 0.766** → **Not significant.**
+*   **Conclusion Example:** "Perceived durability was significantly higher in the 30-day MBG condition than in the No MBG condition. The 15-day condition did not differ significantly from either."
+
+## ▶️ Step-by-Step Practice Task
+1.  **Set Up:** Open `MBGshort.sav`. Go to `Analyze` → `Compare Means` → `One-Way ANOVA`. Add `quality5` (Dependent) and `tMBG` (Factor).
+2.  **Check Assumptions:** Click `Options`. Check `Descriptive` and `Homogeneity of variance test`. Click `Continue`.
+3.  **Run Post-Hoc:** Click `Post Hoc`. Since Levene's test is not significant (p=0.906), check `Scheffe`. Click `Continue`, then `OK`.
+4.  **Interpret:**
+    *   **Descriptives:** What are the mean scores for the three groups?
+    *   **ANOVA Table:** Is the overall F-test significant (Sig. < 0.05)?
+    *   **Post-Hoc Table:** Which specific group pairs are significantly different?
+
+---
+

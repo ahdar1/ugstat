@@ -189,6 +189,17 @@ window.Quarto = {
   <li><a href="#reliability-analysis---computing-cronbachs-alpha" id="toc-reliability-analysis---computing-cronbachs-alpha" class="nav-link" data-scroll-target="#reliability-analysis---computing-cronbachs-alpha"><span class="header-section-number">2.5</span> Reliability Analysis - Computing Cronbach’s alpha</a></li>
   <li><a href="#video" id="toc-video" class="nav-link" data-scroll-target="#video"><span class="header-section-number">2.6</span> Video</a></li>
   <li><a href="#readings" id="toc-readings" class="nav-link" data-scroll-target="#readings"><span class="header-section-number">2.7</span> Readings</a></li>
+  <li><a href="#spss-lab-2-quick-task-guide" id="toc-spss-lab-2-quick-task-guide" class="nav-link" data-scroll-target="#spss-lab-2-quick-task-guide"><span class="header-section-number">3</span> SPSS Lab 2: Quick Task Guide</a>
+  <ul class="collapse">
+  <li><a href="#core-analytical-tasks" id="toc-core-analytical-tasks" class="nav-link" data-scroll-target="#core-analytical-tasks"><span class="header-section-number">3.1</span> 📊 Core Analytical Tasks</a></li>
+  <li><a href="#essential-concepts-best-practices" id="toc-essential-concepts-best-practices" class="nav-link" data-scroll-target="#essential-concepts-best-practices"><span class="header-section-number">3.2</span> 💡 Essential Concepts &amp; Best Practices</a>
+  <ul class="collapse">
+  <li><a href="#choosing-the-right-chart" id="toc-choosing-the-right-chart" class="nav-link" data-scroll-target="#choosing-the-right-chart"><span class="header-section-number">3.2.1</span> 1. Choosing the Right Chart</a></li>
+  <li><a href="#composite-variable-workflow" id="toc-composite-variable-workflow" class="nav-link" data-scroll-target="#composite-variable-workflow"><span class="header-section-number">3.2.2</span> 2. Composite Variable Workflow</a></li>
+  <li><a href="#customizing-charts" id="toc-customizing-charts" class="nav-link" data-scroll-target="#customizing-charts"><span class="header-section-number">3.2.3</span> 3. Customizing Charts</a></li>
+  </ul></li>
+  <li><a href="#step-by-step-practice-tasks" id="toc-step-by-step-practice-tasks" class="nav-link" data-scroll-target="#step-by-step-practice-tasks"><span class="header-section-number">3.3</span> ▶️ Step-by-Step Practice Tasks</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -320,8 +331,95 @@ Task
 <h2 data-number="2.7" class="anchored" data-anchor-id="readings"><span class="header-section-number">2.7</span> Readings</h2>
 <p>Feick, L. F., &amp; Price, L. L. (1987). The market maven: A diffuser of marketplace information. <em>Journal of Marketing</em>, 51(1), 83-97.</p>
 <p>Goldsmith, R. E., Flynn, L. R., &amp; Goldsmith, E. B. (2003). Innovative consumers and market mavens. <em>Journal of Marketing Theory and Practice</em>, 11(4), 54-65.</p>
+</section>
+<section id="spss-lab-2-quick-task-guide" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> SPSS Lab 2: Quick Task Guide</h1>
+<section id="core-analytical-tasks" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="core-analytical-tasks"><span class="header-section-number">3.1</span> 📊 Core Analytical Tasks</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Task / Objective</th>
+<th style="text-align: left;">SPSS Menu Path</th>
+<th style="text-align: left;">Key Variable Examples</th>
+<th style="text-align: left;">Key Notes &amp; Shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Create &amp; Customize Charts</strong></td>
+<td style="text-align: left;"><code>Graphs</code> → Select graph</td>
+<td style="text-align: left;"><code>q14_gender</code> (Pie)<br><code>q11_grade</code> (Bar)<br><code>q4_sat</code> (Box Plot)</td>
+<td style="text-align: left;"><strong>Chart Type Logic:</strong><br>- <strong>Bar/Pie</strong>: Use “Summaries for groups of cases”.<br>- <strong>Box Plot</strong>: Use “Summaries for separate variables”.<br>- <strong>Edit</strong>: Double-click output chart to open editor for colors, labels, titles.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Generate Descriptive Statistics</strong></td>
+<td style="text-align: left;"><code>Analyze</code> → <code>Descriptive Statistics</code> → <code>Descriptives...</code></td>
+<td style="text-align: left;"><code>q4_sat</code><br><code>q16_spent</code></td>
+<td style="text-align: left;">Outputs N, Mean, Std. Deviation, Min, Max.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Check Scale Reliability (Cronbach’s Alpha)</strong></td>
+<td style="text-align: left;"><code>Analyze</code> → <code>Scale</code> → <code>Reliability Analysis...</code></td>
+<td style="text-align: left;"><code>q10_op1</code>, <code>q10_op2</code>, <code>q10_op3</code></td>
+<td style="text-align: left;"><strong>Rule:</strong> Alpha ≥ 0.7 = reliable.<br><strong>Diagnose:</strong> In dialog, click <code>Statistics</code> → check <code>Scale if item deleted</code>.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Compute New Composite Variable</strong></td>
+<td style="text-align: left;"><code>Transform</code> → <code>Compute Variable...</code></td>
+<td style="text-align: left;"><code>MEAN(q10_op1, q10_op2, q10_op3)</code> → <code>Opinion_avg</code></td>
+<td style="text-align: left;"><strong>Prerequisite:</strong> Only compute after reliability check (Alpha ≥ 0.7). Use <code>MEAN()</code> function.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Explore a New Variable</strong></td>
+<td style="text-align: left;">Combine: <code>Descriptives</code> + <code>graph</code></td>
+<td style="text-align: left;"><code>Opinion_avg</code></td>
+<td style="text-align: left;">Report mean/std. deviation and visualize distribution (e.g., with a boxplot).</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="essential-concepts-best-practices" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="essential-concepts-best-practices"><span class="header-section-number">3.2</span> 💡 Essential Concepts &amp; Best Practices</h2>
+<section id="choosing-the-right-chart" class="level3" data-number="3.2.1">
+<h3 data-number="3.2.1" class="anchored" data-anchor-id="choosing-the-right-chart"><span class="header-section-number">3.2.1</span> 1. Choosing the Right Chart</h3>
+<ul>
+<li><strong>Nominal Data</strong> (categories, e.g., <code>gender</code>): <strong>Pie Charts</strong> or <strong>Bar Charts</strong>.</li>
+<li><strong>Ordinal Data</strong> (ordered ranks, e.g., <code>education level</code>): <strong>Bar Charts</strong> (order categories).</li>
+<li><strong>Interval/Ratio Data</strong> (scores/amounts, e.g., <code>satisfaction</code>, <code>money spent</code>): <strong>Histograms</strong> or <strong>Box Plots</strong>.</li>
+</ul>
+</section>
+<section id="composite-variable-workflow" class="level3" data-number="3.2.2">
+<h3 data-number="3.2.2" class="anchored" data-anchor-id="composite-variable-workflow"><span class="header-section-number">3.2.2</span> 2. Composite Variable Workflow</h3>
+<p>Always follow this 3-step process when creating a scale from multiple items: 1. <strong>Reliability First:</strong> Run <code>Reliability Analysis</code>. Proceed only if <strong>Cronbach’s Alpha ≥ 0.7</strong>. 2. <strong>Compute Average:</strong> Use <code>Transform</code> → <code>Compute Variable</code> with the <code>MEAN()</code> function. 3. <strong>Explore the Result:</strong> Analyze your new variable (e.g., <code>Opinion_avg</code>) with <code>Descriptives</code> and charts.</p>
+</section>
+<section id="customizing-charts" class="level3" data-number="3.2.3">
+<h3 data-number="3.2.3" class="anchored" data-anchor-id="customizing-charts"><span class="header-section-number">3.2.3</span> 3. Customizing Charts</h3>
+<p>For professional graphs, <strong>double-click any chart</strong> in the output to open the <strong>Chart Editor</strong>. You can then: * Add/modify data labels (counts, %). * Change colors, fill patterns. * Edit titles and axis labels. * Adjust scales and fonts.</p>
+</section>
+</section>
+<section id="step-by-step-practice-tasks" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="step-by-step-practice-tasks"><span class="header-section-number">3.3</span> ▶️ Step-by-Step Practice Tasks</h2>
+<ol type="1">
+<li><strong>Charts:</strong> Create a pie chart for <code>q14_gender</code>, a bar chart for <code>q11_grade</code>, and a box plot for <code>q4_sat</code>. Remember the different “Summaries” settings.</li>
+<li><strong>Reliability &amp; Computation:</strong>
+<ul>
+<li>Run <code>Reliability Analysis</code> on <code>q10_op1</code>, <code>q10_op2</code>, <code>q10_op3</code>.</li>
+<li>Verify Alpha is high (0.927), then compute <code>Opinion_avg</code> using <code>Compute Variable</code>.</li>
+</ul></li>
+<li><strong>Explore:</strong> Run <code>Descriptives</code> on <code>Opinion_avg</code> and make a boxplot for it.</li>
+</ol>
+<hr>
+<p><em>Need a cheat sheet for <strong>Workshop 3 (Crosstabs and t-tests)</strong>? Just ask!</em></p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

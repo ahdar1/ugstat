@@ -187,6 +187,17 @@ window.Quarto = {
   <li><a href="#multicollinearity-problems" id="toc-multicollinearity-problems" class="nav-link" data-scroll-target="#multicollinearity-problems"><span class="header-section-number">5.4</span> Multicollinearity Problems</a></li>
   <li><a href="#if-multicollinearity-exists" id="toc-if-multicollinearity-exists" class="nav-link" data-scroll-target="#if-multicollinearity-exists"><span class="header-section-number">5.5</span> If Multicollinearity Exists</a></li>
   <li><a href="#video" id="toc-video" class="nav-link" data-scroll-target="#video"><span class="header-section-number">5.6</span> Video</a></li>
+  <li><a href="#spss-workshop-5-quick-task-guide" id="toc-spss-workshop-5-quick-task-guide" class="nav-link" data-scroll-target="#spss-workshop-5-quick-task-guide"><span class="header-section-number">6</span> SPSS Workshop 5: Quick Task Guide</a>
+  <ul class="collapse">
+  <li><a href="#core-analytical-tasks" id="toc-core-analytical-tasks" class="nav-link" data-scroll-target="#core-analytical-tasks"><span class="header-section-number">6.1</span> 🎯 Core Analytical Tasks</a></li>
+  <li><a href="#essential-concepts-step-by-step-workflow" id="toc-essential-concepts-step-by-step-workflow" class="nav-link" data-scroll-target="#essential-concepts-step-by-step-workflow"><span class="header-section-number">6.2</span> 💡 Essential Concepts &amp; Step-by-Step Workflow</a>
+  <ul class="collapse">
+  <li><a href="#the-complete-regression-workflow" id="toc-the-complete-regression-workflow" class="nav-link" data-scroll-target="#the-complete-regression-workflow"><span class="header-section-number">6.2.1</span> 1. The Complete Regression Workflow</a></li>
+  <li><a href="#interpreting-key-outputs" id="toc-interpreting-key-outputs" class="nav-link" data-scroll-target="#interpreting-key-outputs"><span class="header-section-number">6.2.2</span> 2. Interpreting Key Outputs</a></li>
+  <li><a href="#dealing-with-multicollinearity" id="toc-dealing-with-multicollinearity" class="nav-link" data-scroll-target="#dealing-with-multicollinearity"><span class="header-section-number">6.2.3</span> 3. Dealing with Multicollinearity</a></li>
+  </ul></li>
+  <li><a href="#step-by-step-practice-task" id="toc-step-by-step-practice-task" class="nav-link" data-scroll-target="#step-by-step-practice-task"><span class="header-section-number">6.3</span> ▶️ Step-by-Step Practice Task</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -437,8 +448,119 @@ Task
 <section id="video" class="level2" data-number="5.6">
 <h2 data-number="5.6" class="anchored" data-anchor-id="video"><span class="header-section-number">5.6</span> Video</h2>
 <p><a href="https://dtu-panopto.lancs.ac.uk/Panopto/Pages/Viewer.aspx?id=074239e8-f79d-4ffb-8754-ac9400f4f00f">Regression with a categorical iv</a></p>
+</section>
+<section id="spss-workshop-5-quick-task-guide" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> SPSS Workshop 5: Quick Task Guide</h1>
+<section id="core-analytical-tasks" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="core-analytical-tasks"><span class="header-section-number">6.1</span> 🎯 Core Analytical Tasks</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Task / Objective</th>
+<th style="text-align: left;">SPSS Menu Path</th>
+<th style="text-align: left;">Key Variables / Settings</th>
+<th style="text-align: left;">Key Notes &amp; Interpretation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Run a Multiple Regression</strong></td>
+<td style="text-align: left;"><code>Analyze</code> → <code>Regression</code> → <code>Linear...</code></td>
+<td style="text-align: left;"><strong>Dependent:</strong> <code>Intent</code><br><strong>Independent(s):</strong> <code>Guilt</code>, <code>Attract</code>, <code>Age</code>, <code>Gender</code></td>
+<td style="text-align: left;">Tests if a set of independent variables predicts a continuous dependent variable.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Check Overall Model Fit &amp; Significance</strong></td>
+<td style="text-align: left;">Output: <code>ANOVA</code> Table</td>
+<td style="text-align: left;">N/A</td>
+<td style="text-align: left;">Check the <strong>Sig.</strong> value (p-value). <strong>p &lt; 0.05</strong> means the overall regression model is statistically meaningful. If p &gt; 0.05, do not interpret further.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Assess Model Explanatory Power</strong></td>
+<td style="text-align: left;">Output: <code>Model Summary</code> Table</td>
+<td style="text-align: left;">Look at <strong>Adjusted R Square</strong></td>
+<td style="text-align: left;">Indicates the <strong>percentage of variance</strong> in the dependent variable explained by the model. <strong>Guidelines:</strong> ≥ 0.02 (small), ≥ 0.13 (medium), ≥ 0.26 (large).</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Interpret Individual Predictors</strong></td>
+<td style="text-align: left;">Output: <code>Coefficients</code> Table</td>
+<td style="text-align: left;">Check <strong>Sig.</strong>, <strong>B</strong>, and <strong>Beta</strong> columns</td>
+<td style="text-align: left;"><strong>Significance:</strong> <code>Sig. &lt; 0.05</code> = variable is a significant predictor.<br><strong>Strength:</strong> Compare <strong>Standardized Coefficients (Beta)</strong>; higher absolute value = stronger effect.<br><strong>Prediction:</strong> Use <strong>Unstandardized Coefficients (B)</strong> in the regression equation.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Diagnose Multicollinearity</strong></td>
+<td style="text-align: left;">1. <strong>Correlation:</strong> <code>Analyze</code> → <code>Correlate</code> → <code>Bivariate</code><br>2. <strong>VIF:</strong> In Linear Regression dialog, click <code>Statistics</code> → Check <code>Collinearity diagnostics</code></td>
+<td style="text-align: left;">Check correlation matrix and VIF values</td>
+<td style="text-align: left;"><strong>Problem if:</strong> Correlation between predictors &gt; <strong>0.7</strong> (caution) or &gt; <strong>0.9</strong> (serious).<br><strong>Or if:</strong> <strong>VIF &gt; 10</strong> in the coefficients table.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="essential-concepts-step-by-step-workflow" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="essential-concepts-step-by-step-workflow"><span class="header-section-number">6.2</span> 💡 Essential Concepts &amp; Step-by-Step Workflow</h2>
+<section id="the-complete-regression-workflow" class="level3" data-number="6.2.1">
+<h3 data-number="6.2.1" class="anchored" data-anchor-id="the-complete-regression-workflow"><span class="header-section-number">6.2.1</span> 1. The Complete Regression Workflow</h3>
+<ol type="1">
+<li><strong>Run the Regression:</strong> <code>Analyze</code> → <code>Regression</code> → <code>Linear</code>. Specify your dependent (<code>Intent</code>) and independent variables (<code>Guilt</code>, <code>Attract</code>, <code>Age</code>, <code>Gender</code>).</li>
+<li><strong>Check Overall Model:</strong> Look at the <strong>ANOVA table</strong>. <strong>Proceed only if Sig. (p) &lt; 0.05</strong>.</li>
+<li><strong>Check Explanatory Power:</strong> Look at the <strong>Adjusted R²</strong> in the <code>Model Summary</code> table.</li>
+<li><strong>Interpret Predictors:</strong> In the <code>Coefficients</code> table:
+<ul>
+<li>Identify significant predictors (<code>Sig. &lt; 0.05</code>).</li>
+<li>Use <strong>Beta</strong> to compare the relative strength of significant predictors.</li>
+</ul></li>
+<li><strong>Check for Multicollinearity:</strong> Re-run regression with <code>Collinearity diagnostics</code> in <code>Statistics</code>. Ensure all <strong>VIF values are &lt; 10</strong>.</li>
+</ol>
+</section>
+<section id="interpreting-key-outputs" class="level3" data-number="6.2.2">
+<h3 data-number="6.2.2" class="anchored" data-anchor-id="interpreting-key-outputs"><span class="header-section-number">6.2.2</span> 2. Interpreting Key Outputs</h3>
+<ul>
+<li><strong>The Regression Equation:</strong> Use the <em>Unstandardized Coefficients (B)</em> to form the equation for prediction: <code>Intent = B₀ + (B₁ * Guilt) + (B₂ * Attract) + (B₃ * Age) + (B₄ * Gender)</code></li>
+<li><strong>Making a Prediction (Example from Lab Task):</strong> For a female (<code>Gender=1</code>), aged 20, with <code>Guilt=3</code> and <code>Attract=5</code>:
+<ol type="1">
+<li>Find the <em>B</em> coefficients and constant from your output.</li>
+<li>Plug into equation: <code>Intent = B₀ + (B₁*3) + (B₂*5) + (B₃*20) + (B₄*1)</code></li>
+<li>Calculate to predict the intention score.</li>
+</ol></li>
+<li><strong>One-tailed vs.&nbsp;Two-tailed Tests:</strong> SPSS reports <strong>two-tailed p-values</strong>. For a <strong>one-tailed test</strong> (directional hypothesis, e.g., <code>H1: β₁ &gt; 0</code>), <strong>divide the reported p-value by 2</strong>.</li>
+</ul>
+</section>
+<section id="dealing-with-multicollinearity" class="level3" data-number="6.2.3">
+<h3 data-number="6.2.3" class="anchored" data-anchor-id="dealing-with-multicollinearity"><span class="header-section-number">6.2.3</span> 3. Dealing with Multicollinearity</h3>
+<p>If you detect multicollinearity (VIF &gt; 10 or very high correlations), consider these remedies: 1. <strong>Remove Variables:</strong> Omit one of the highly correlated independent variables. 2. <strong>Combine Variables:</strong> Create a composite score (e.g., average) if the correlated variables measure a similar construct. 3. <strong>Purpose-Limited Use:</strong> Use the model <strong>only for prediction</strong>, not for interpreting individual coefficients. 4. <strong>Collect More Data:</strong> Increase your sample size.</p>
+</section>
+</section>
+<section id="step-by-step-practice-task" class="level2" data-number="6.3">
+<h2 data-number="6.3" class="anchored" data-anchor-id="step-by-step-practice-task"><span class="header-section-number">6.3</span> ▶️ Step-by-Step Practice Task</h2>
+<ol type="1">
+<li><strong>Run the Analysis:</strong> Open <code>RobotGLP.sav</code>. Run <code>Analyze</code> → <code>Regression</code> → <code>Linear</code> with <code>Intent</code> as Dependent and <code>Guilt</code>, <code>Attract</code>, <code>Age</code>, <code>Gender</code> as Independents. Click <code>OK</code>.</li>
+<li><strong>Interpret Model Fit:</strong>
+<ul>
+<li><strong>ANOVA Table:</strong> Is the overall model significant (Sig. &lt; 0.05)?</li>
+<li><strong>Model Summary:</strong> What is the Adjusted R²? How would you describe its size?</li>
+</ul></li>
+<li><strong>Interpret Predictors:</strong> In the <code>Coefficients</code> table:
+<ul>
+<li>Which variables are significant predictors of <code>Intent</code> (Sig. &lt; 0.05)?</li>
+<li>Among the significant ones, which has the strongest effect (largest absolute <strong>Beta</strong> value)?</li>
+</ul></li>
+<li><strong>Check for Multicollinearity:</strong>
+<ul>
+<li>Re-run the regression, clicking <code>Statistics</code> and checking <code>Collinearity diagnostics</code>.</li>
+<li>Check the VIF values in the new <code>Coefficients</code> table. Is multicollinearity a problem (VIF &gt; 10)?</li>
+</ul></li>
+<li><strong>Make a Prediction:</strong> Use the <em>Unstandardized Coefficients (B)</em> to predict the <code>Intent</code> score for a 20-year-old female with <code>Guilt=3</code> and <code>Attract=5</code>.</li>
+</ol>
+<hr>
 
 
+</section>
 </section>
 <section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
 <hr>

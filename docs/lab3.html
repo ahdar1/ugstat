@@ -196,6 +196,17 @@ window.Quarto = {
   </ul></li>
   <li><a href="#video" id="toc-video" class="nav-link" data-scroll-target="#video"><span class="header-section-number">3.4</span> Video</a></li>
   <li><a href="#readings" id="toc-readings" class="nav-link" data-scroll-target="#readings"><span class="header-section-number">3.5</span> Readings</a></li>
+  <li><a href="#spss-workshop-3-quick-task-guide" id="toc-spss-workshop-3-quick-task-guide" class="nav-link" data-scroll-target="#spss-workshop-3-quick-task-guide"><span class="header-section-number">4</span> SPSS Workshop 3: Quick Task Guide</a>
+  <ul class="collapse">
+  <li><a href="#core-analytical-tasks" id="toc-core-analytical-tasks" class="nav-link" data-scroll-target="#core-analytical-tasks"><span class="header-section-number">4.1</span> 🎯 Core Analytical Tasks</a></li>
+  <li><a href="#essential-concepts-interpretation-how-to" id="toc-essential-concepts-interpretation-how-to" class="nav-link" data-scroll-target="#essential-concepts-interpretation-how-to"><span class="header-section-number">4.2</span> 💡 Essential Concepts, Interpretation &amp; How-To</a>
+  <ul class="collapse">
+  <li><a href="#interpreting-the-chi-square-test" id="toc-interpreting-the-chi-square-test" class="nav-link" data-scroll-target="#interpreting-the-chi-square-test"><span class="header-section-number">4.2.1</span> 1. Interpreting the Chi-Square Test</a></li>
+  <li><a href="#interpreting-the-independent-samples-t-test" id="toc-interpreting-the-independent-samples-t-test" class="nav-link" data-scroll-target="#interpreting-the-independent-samples-t-test"><span class="header-section-number">4.2.2</span> 2. Interpreting the Independent Samples T-Test</a></li>
+  <li><a href="#variable-requirements-workflow" id="toc-variable-requirements-workflow" class="nav-link" data-scroll-target="#variable-requirements-workflow"><span class="header-section-number">4.2.3</span> 3. Variable Requirements &amp; Workflow</a></li>
+  </ul></li>
+  <li><a href="#step-by-step-practice-tasks" id="toc-step-by-step-practice-tasks" class="nav-link" data-scroll-target="#step-by-step-practice-tasks"><span class="header-section-number">4.3</span> ▶️ Step-by-Step Practice Tasks</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -496,8 +507,120 @@ Task
 <p>Cohen, J. (1988). Statistical power analysis for the behavioral sciences, 2nd ed.&nbsp;Lawrence Erlbaum.</p>
 <p>Feick, L. F., &amp; Price, L. L. (1987). The market maven: A diffuser of marketplace information. <em>Journal of Marketing</em>, 51(1), 83-97.</p>
 <p>Goldsmith, R. E., Flynn, L. R., &amp; Goldsmith, E. B. (2003). Innovative consumers and market mavens. <em>Journal of Marketing Theory and Practice</em>, 11(4), 54-65.</p>
+</section>
+<section id="spss-workshop-3-quick-task-guide" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> SPSS Workshop 3: Quick Task Guide</h1>
+<section id="core-analytical-tasks" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="core-analytical-tasks"><span class="header-section-number">4.1</span> 🎯 Core Analytical Tasks</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Task / Test</th>
+<th style="text-align: left;">SPSS Menu Path</th>
+<th style="text-align: left;">Key Variables &amp; Settings</th>
+<th style="text-align: left;">Key Notes &amp; Interpretation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Chi-Square Test</strong> (Association between 2 categorical variables)</td>
+<td style="text-align: left;"><code>Analyze</code> → <code>Descriptive Statistics</code> → <code>Crosstabs...</code></td>
+<td style="text-align: left;"><strong>Row:</strong> <code>q1_online</code><br><strong>Column:</strong> <code>q14_gender</code><br><strong>Statistics Tab:</strong> Check <code>Chi-square</code>, <code>Phi and Cramer's V</code>.<br><strong>Cells Tab:</strong> Check <code>Row</code> or <code>Column</code> percentages.</td>
+<td style="text-align: left;"><strong>Significance:</strong> Check <code>Asymp. Sig. (2-sided)</code> p-value.<br><strong>p &lt; 0.05</strong> = significant association.<br><strong>Strength:</strong> Use the <strong>Phi (φ)</strong> value from the output.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Independent Samples T-Test</strong> (Compare means between 2 groups)</td>
+<td style="text-align: left;"><code>Analyze</code> → <code>Compare Means</code> → <code>Independent-Samples T Test...</code></td>
+<td style="text-align: left;"><strong>Test Variable:</strong> <code>Opinion_avg</code> (continuous).<br><strong>Grouping Variable:</strong> <code>q14_gender</code> (click <code>Define Groups</code>, e.g., 1 &amp; 2).<br><strong>Options:</strong> ‘Estimates effect size’ is ticked by default.</td>
+<td style="text-align: left;"><strong>1. Check Variances:</strong> Look at <strong>Levene’s Test</strong> p-value.<br> - <strong>p &gt; 0.05</strong>: Use <strong>“Equal variances assumed”</strong> row.<br> - <strong>p ≤ 0.05</strong>: Use <strong>“Equal variances not assumed”</strong> row.<br><strong>2. Check Significance:</strong> Look at the 2-tailed <code>Sig.</code> value in the chosen row.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="essential-concepts-interpretation-how-to" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="essential-concepts-interpretation-how-to"><span class="header-section-number">4.2</span> 💡 Essential Concepts, Interpretation &amp; How-To</h2>
+<section id="interpreting-the-chi-square-test" class="level3" data-number="4.2.1">
+<h3 data-number="4.2.1" class="anchored" data-anchor-id="interpreting-the-chi-square-test"><span class="header-section-number">4.2.1</span> 1. Interpreting the Chi-Square Test</h3>
+<ul>
+<li><strong>Assessing Effect Strength (Phi φ):</strong>
+<ul>
+<li><strong>φ = 0.1</strong> → Small effect</li>
+<li><strong>φ = 0.3</strong> → Medium effect</li>
+<li><strong>φ = 0.5</strong> → Large effect</li>
+</ul></li>
+<li><strong>Post-Hoc Test (if Chi-Square is significant):</strong> If <strong>p &lt; 0.05</strong>, you need to find out <em>which specific categories</em> are different.
+<ol type="1">
+<li>Re-run <code>Crosstabs</code>.</li>
+<li>In the <strong><code>Cells</code></strong> tab, under <strong><code>z-test</code></strong>, check:
+<ul>
+<li><code>Compare column proportions</code></li>
+<li><code>Adjust p-values (Bonferroni method)</code></li>
+</ul></li>
+<li>Look for superscript letters (<code>a</code>, <code>b</code>) in the output table to identify significant differences between column proportions.</li>
+</ol></li>
+</ul>
+</section>
+<section id="interpreting-the-independent-samples-t-test" class="level3" data-number="4.2.2">
+<h3 data-number="4.2.2" class="anchored" data-anchor-id="interpreting-the-independent-samples-t-test"><span class="header-section-number">4.2.2</span> 2. Interpreting the Independent Samples T-Test</h3>
+<ul>
+<li><strong>Formulating Hypotheses:</strong>
+<ul>
+<li><strong>Non-directional:</strong> <code>H1: Mean of Group A ≠ Mean of Group B</code></li>
+<li><strong>Directional:</strong> <code>H1: Mean of Group A &gt; (or &lt;) Mean of Group B</code> (must be specified <em>before</em> analysis).</li>
+</ul></li>
+<li><strong>Assessing Practical Importance (Cohen’s d):</strong> After a significant t-test, check the effect size table.
+<ul>
+<li><strong>d = 0.2</strong> → Small effect</li>
+<li><strong>d = 0.5</strong> → Medium effect</li>
+<li><strong>d = 0.8</strong> → Large effect</li>
+</ul></li>
+</ul>
+</section>
+<section id="variable-requirements-workflow" class="level3" data-number="4.2.3">
+<h3 data-number="4.2.3" class="anchored" data-anchor-id="variable-requirements-workflow"><span class="header-section-number">4.2.3</span> 3. Variable Requirements &amp; Workflow</h3>
+<ul>
+<li><strong>For Chi-Square:</strong> <strong>Both variables must be categorical</strong> (Nominal/Ordinal).</li>
+<li><strong>For T-Test:</strong> <strong>One categorical grouping variable</strong> and <strong>one continuous test variable</strong>.</li>
+<li><strong>Composite Variable Reminder:</strong> Before using a scale (e.g., <code>Opinion_avg</code>) in a t-test:
+<ol type="1">
+<li><strong>Check Reliability:</strong> <code>Analyze</code> → <code>Scale</code> → <code>Reliability Analysis</code> (Cronbach’s Alpha ≥ 0.7).</li>
+<li><strong>Compute Score:</strong> <code>Transform</code> → <code>Compute Variable</code> (e.g., <code>MEAN(q10_op1, q10_op2, q10_op3)</code>).</li>
+</ol></li>
+</ul>
+</section>
+</section>
+<section id="step-by-step-practice-tasks" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="step-by-step-practice-tasks"><span class="header-section-number">4.3</span> ▶️ Step-by-Step Practice Tasks</h2>
+<ol type="1">
+<li><strong>Chi-Square Analysis:</strong>
+<ul>
+<li>Test association: <code>q14_gender</code> (Column) vs.&nbsp;<code>q1_online</code> (Row).</li>
+<li>Get chi-square statistic, p-value, and Phi.</li>
+<li><strong>Question:</strong> Is the association significant? How strong is it (Phi)?</li>
+</ul></li>
+<li><strong>Independent T-Test:</strong>
+<ul>
+<li>Run t-test: <code>Opinion_avg</code> by <code>q14_gender</code>.</li>
+<li>Check Levene’s test, then the correct t-test p-value.</li>
+<li>Check Cohen’s d in the effect size table.</li>
+<li><strong>Question:</strong> Is the mean difference significant? What is the effect size?</li>
+</ul></li>
+<li><strong>Additional Practice Task:</strong>
+<ul>
+<li>Compare satisfaction (<code>q4_sat</code>) between loyalty program groups (<code>Q15_loyal</code>).</li>
+</ul></li>
+</ol>
+<hr>
+<p><em>Need a cheat sheet for <strong>Workshop 4 (ANOVA and Experimentation)</strong>? Just ask!</em></p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

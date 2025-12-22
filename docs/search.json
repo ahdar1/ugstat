@@ -548,5 +548,155 @@
     "crumbs": [
       "Preface"
     ]
+  },
+  {
+    "objectID": "lab1.html#core-analytical-tasks",
+    "href": "lab1.html#core-analytical-tasks",
+    "title": "1  Getting started with SPSS",
+    "section": "2.1 📊 Core Analytical Tasks",
+    "text": "2.1 📊 Core Analytical Tasks\nThis table summarizes the main analytical tasks covered in the “Getting Started with SPSS” workshop.\n\n\n\n\n\n\n\n\n\nTask / Objective\nSPSS Menu Path\nKey Variable Example\nNotes / Tips\n\n\n\n\nExplore a single variable\nAnalyze → Descriptive Statistics → Frequencies...\nq2_job, q2_trip\nShortcut: Hold Ctrl to select multiple variables at once.\n\n\nCreate charts (bar, pie, histogram)\nAnalyze → Descriptive Statistics → Frequencies... → Click Charts tab\nAny variable\nSelect chart type in the dialog box.\n\n\nAnalyze relationship between two categorical variables\nAnalyze → Descriptive Statistics → Crosstabs...\nRow: Q14_genderColumn: Q15_loyal\nUse the Cells button to show row/column percentages.\n\n\nCopy output to Word\nRight-click on any table or chart in the SPSS output viewer → Select Copy → Paste into Word\nN/A\nStraightforward copy-paste.\n\n\nGet help within SPSS\nUse the Help menu or click the Help tab in any analysis dialog box.\nN/A\nThe Statistics Coach, Tutorials, and Case Studies are useful resources.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Getting started with SPSS</span>"
+    ]
+  },
+  {
+    "objectID": "lab1.html#essential-concepts-best-practices",
+    "href": "lab1.html#essential-concepts-best-practices",
+    "title": "1  Getting started with SPSS",
+    "section": "2.2 💡 Essential Concepts & Best Practices",
+    "text": "2.2 💡 Essential Concepts & Best Practices\n\n2.2.1 Understand Your Data\nBefore analyzing, always check the Variable View. Pay special attention to these columns: * Name: The short variable name (e.g., q2_job). * Label: The full description of what was measured. * Values: The numeric codes and their meanings (e.g., 1 = \"looked for a job\").\n\n\n2.2.2 Create a Codebook\nA codebook is a crucial document for any data project. It should include: * Variable names and descriptions. * Full survey questions or constructs. * Coding for all response answers. * Designated codes for missing values (e.g., 99).\nExample Codebook Snippet:\n\n\n\n\n\n\n\n\n\nVariable\nConstruct\nStatement\nResponse Coding\n\n\n\n\nq1_online\nHours spent online\n“Approximately how many hours per week do you spend online?”\n1= Less than 1 hour2= 1-5 hours…99= Missing\n\n\nq4_sat\nSatisfaction\n“How satisfied are you with your DELL computer system?”\n1= Very dissatisfied2= Somewhat dissatisfied…99= Missing\n\n\n\n\n\n2.2.3 Answering Research Questions\nUse the techniques above to answer specific questions:\n\n\n\n\n\n\n\n\nQuestion\nSPSS Procedure\nVariables Needed\n\n\n\n\nDistribution of hours online?\nFrequencies\nQ1\n\n\nProportion of males/females?\nFrequencies\nQ14_gender\n\n\nPercentage willing to join loyalty program?\nFrequencies\nQ15_loyal\n\n\nRelationship between gender and loyalty?\nCrosstabs\nQ14_gender & Q15_loyal\n\n\nRelationship between gender and education?\nCrosstabs\nQ14_gender & Q13_edu",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Getting started with SPSS</span>"
+    ]
+  },
+  {
+    "objectID": "lab1.html#how-to-get-started",
+    "href": "lab1.html#how-to-get-started",
+    "title": "1  Getting started with SPSS",
+    "section": "2.3 ▶️ How to Get Started",
+    "text": "2.3 ▶️ How to Get Started\n\nOpen the Dell.sav data file.\nSwitch to Variable View to familiarize yourself with the data structure.\nPractice by running Frequencies for single variables like q2_job.\nCreate a Crosstab to explore relationships, such as between gender (Q14_gender) and education (Q13_edu).",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Getting started with SPSS</span>"
+    ]
+  },
+  {
+    "objectID": "lab2.html#core-analytical-tasks",
+    "href": "lab2.html#core-analytical-tasks",
+    "title": "2  Descriptive Statistics, Graphs and Charts in SPSS",
+    "section": "3.1 📊 Core Analytical Tasks",
+    "text": "3.1 📊 Core Analytical Tasks\n\n\n\n\n\n\n\n\n\nTask / Objective\nSPSS Menu Path\nKey Variable Examples\nKey Notes & Shortcuts\n\n\n\n\nCreate & Customize Charts\nGraphs → Select graph\nq14_gender (Pie)q11_grade (Bar)q4_sat (Box Plot)\nChart Type Logic:- Bar/Pie: Use “Summaries for groups of cases”.- Box Plot: Use “Summaries for separate variables”.- Edit: Double-click output chart to open editor for colors, labels, titles.\n\n\nGenerate Descriptive Statistics\nAnalyze → Descriptive Statistics → Descriptives...\nq4_satq16_spent\nOutputs N, Mean, Std. Deviation, Min, Max.\n\n\nCheck Scale Reliability (Cronbach’s Alpha)\nAnalyze → Scale → Reliability Analysis...\nq10_op1, q10_op2, q10_op3\nRule: Alpha ≥ 0.7 = reliable.Diagnose: In dialog, click Statistics → check Scale if item deleted.\n\n\nCompute New Composite Variable\nTransform → Compute Variable...\nMEAN(q10_op1, q10_op2, q10_op3) → Opinion_avg\nPrerequisite: Only compute after reliability check (Alpha ≥ 0.7). Use MEAN() function.\n\n\nExplore a New Variable\nCombine: Descriptives + graph\nOpinion_avg\nReport mean/std. deviation and visualize distribution (e.g., with a boxplot).",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Descriptive Statistics, Graphs and Charts in SPSS</span>"
+    ]
+  },
+  {
+    "objectID": "lab2.html#essential-concepts-best-practices",
+    "href": "lab2.html#essential-concepts-best-practices",
+    "title": "2  Descriptive Statistics, Graphs and Charts in SPSS",
+    "section": "3.2 💡 Essential Concepts & Best Practices",
+    "text": "3.2 💡 Essential Concepts & Best Practices\n\n3.2.1 1. Choosing the Right Chart\n\nNominal Data (categories, e.g., gender): Pie Charts or Bar Charts.\nOrdinal Data (ordered ranks, e.g., education level): Bar Charts (order categories).\nInterval/Ratio Data (scores/amounts, e.g., satisfaction, money spent): Histograms or Box Plots.\n\n\n\n3.2.2 2. Composite Variable Workflow\nAlways follow this 3-step process when creating a scale from multiple items: 1. Reliability First: Run Reliability Analysis. Proceed only if Cronbach’s Alpha ≥ 0.7. 2. Compute Average: Use Transform → Compute Variable with the MEAN() function. 3. Explore the Result: Analyze your new variable (e.g., Opinion_avg) with Descriptives and charts.\n\n\n3.2.3 3. Customizing Charts\nFor professional graphs, double-click any chart in the output to open the Chart Editor. You can then: * Add/modify data labels (counts, %). * Change colors, fill patterns. * Edit titles and axis labels. * Adjust scales and fonts.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Descriptive Statistics, Graphs and Charts in SPSS</span>"
+    ]
+  },
+  {
+    "objectID": "lab2.html#step-by-step-practice-tasks",
+    "href": "lab2.html#step-by-step-practice-tasks",
+    "title": "2  Descriptive Statistics, Graphs and Charts in SPSS",
+    "section": "3.3 ▶️ Step-by-Step Practice Tasks",
+    "text": "3.3 ▶️ Step-by-Step Practice Tasks\n\nCharts: Create a pie chart for q14_gender, a bar chart for q11_grade, and a box plot for q4_sat. Remember the different “Summaries” settings.\nReliability & Computation:\n\nRun Reliability Analysis on q10_op1, q10_op2, q10_op3.\nVerify Alpha is high (0.927), then compute Opinion_avg using Compute Variable.\n\nExplore: Run Descriptives on Opinion_avg and make a boxplot for it.\n\n\nNeed a cheat sheet for Workshop 3 (Crosstabs and t-tests)? Just ask!",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Descriptive Statistics, Graphs and Charts in SPSS</span>"
+    ]
+  },
+  {
+    "objectID": "lab3.html#core-analytical-tasks",
+    "href": "lab3.html#core-analytical-tasks",
+    "title": "3  Crosstabs and Two Independent Samples T-test",
+    "section": "4.1 🎯 Core Analytical Tasks",
+    "text": "4.1 🎯 Core Analytical Tasks\n\n\n\n\n\n\n\n\n\nTask / Test\nSPSS Menu Path\nKey Variables & Settings\nKey Notes & Interpretation\n\n\n\n\nChi-Square Test (Association between 2 categorical variables)\nAnalyze → Descriptive Statistics → Crosstabs...\nRow: q1_onlineColumn: q14_genderStatistics Tab: Check Chi-square, Phi and Cramer's V.Cells Tab: Check Row or Column percentages.\nSignificance: Check Asymp. Sig. (2-sided) p-value.p &lt; 0.05 = significant association.Strength: Use the Phi (φ) value from the output.\n\n\nIndependent Samples T-Test (Compare means between 2 groups)\nAnalyze → Compare Means → Independent-Samples T Test...\nTest Variable: Opinion_avg (continuous).Grouping Variable: q14_gender (click Define Groups, e.g., 1 & 2).Options: ‘Estimates effect size’ is ticked by default.\n1. Check Variances: Look at Levene’s Test p-value. - p &gt; 0.05: Use “Equal variances assumed” row. - p ≤ 0.05: Use “Equal variances not assumed” row.2. Check Significance: Look at the 2-tailed Sig. value in the chosen row.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Crosstabs and Two Independent Samples T-test</span>"
+    ]
+  },
+  {
+    "objectID": "lab3.html#essential-concepts-interpretation-how-to",
+    "href": "lab3.html#essential-concepts-interpretation-how-to",
+    "title": "3  Crosstabs and Two Independent Samples T-test",
+    "section": "4.2 💡 Essential Concepts, Interpretation & How-To",
+    "text": "4.2 💡 Essential Concepts, Interpretation & How-To\n\n4.2.1 1. Interpreting the Chi-Square Test\n\nAssessing Effect Strength (Phi φ):\n\nφ = 0.1 → Small effect\nφ = 0.3 → Medium effect\nφ = 0.5 → Large effect\n\nPost-Hoc Test (if Chi-Square is significant): If p &lt; 0.05, you need to find out which specific categories are different.\n\nRe-run Crosstabs.\nIn the Cells tab, under z-test, check:\n\nCompare column proportions\nAdjust p-values (Bonferroni method)\n\nLook for superscript letters (a, b) in the output table to identify significant differences between column proportions.\n\n\n\n\n4.2.2 2. Interpreting the Independent Samples T-Test\n\nFormulating Hypotheses:\n\nNon-directional: H1: Mean of Group A ≠ Mean of Group B\nDirectional: H1: Mean of Group A &gt; (or &lt;) Mean of Group B (must be specified before analysis).\n\nAssessing Practical Importance (Cohen’s d): After a significant t-test, check the effect size table.\n\nd = 0.2 → Small effect\nd = 0.5 → Medium effect\nd = 0.8 → Large effect\n\n\n\n\n4.2.3 3. Variable Requirements & Workflow\n\nFor Chi-Square: Both variables must be categorical (Nominal/Ordinal).\nFor T-Test: One categorical grouping variable and one continuous test variable.\nComposite Variable Reminder: Before using a scale (e.g., Opinion_avg) in a t-test:\n\nCheck Reliability: Analyze → Scale → Reliability Analysis (Cronbach’s Alpha ≥ 0.7).\nCompute Score: Transform → Compute Variable (e.g., MEAN(q10_op1, q10_op2, q10_op3)).",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Crosstabs and Two Independent Samples T-test</span>"
+    ]
+  },
+  {
+    "objectID": "lab3.html#step-by-step-practice-tasks",
+    "href": "lab3.html#step-by-step-practice-tasks",
+    "title": "3  Crosstabs and Two Independent Samples T-test",
+    "section": "4.3 ▶️ Step-by-Step Practice Tasks",
+    "text": "4.3 ▶️ Step-by-Step Practice Tasks\n\nChi-Square Analysis:\n\nTest association: q14_gender (Column) vs. q1_online (Row).\nGet chi-square statistic, p-value, and Phi.\nQuestion: Is the association significant? How strong is it (Phi)?\n\nIndependent T-Test:\n\nRun t-test: Opinion_avg by q14_gender.\nCheck Levene’s test, then the correct t-test p-value.\nCheck Cohen’s d in the effect size table.\nQuestion: Is the mean difference significant? What is the effect size?\n\nAdditional Practice Task:\n\nCompare satisfaction (q4_sat) between loyalty program groups (Q15_loyal).\n\n\n\nNeed a cheat sheet for Workshop 4 (ANOVA and Experimentation)? Just ask!",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Crosstabs and Two Independent Samples T-test</span>"
+    ]
+  },
+  {
+    "objectID": "lab4.html#core-analytical-tasks",
+    "href": "lab4.html#core-analytical-tasks",
+    "title": "4  ANOVA and Experimentation",
+    "section": "5.1 🎯 Core Analytical Tasks",
+    "text": "5.1 🎯 Core Analytical Tasks\n\n\n\n\n\n\n\n\n\nTask / Objective\nSPSS Menu Path\nKey Variables / Settings\nKey Notes & Interpretation\n\n\n\n\nRun a One-Way ANOVA (Compare means across 3+ groups)\nAnalyze → Compare Means → One-Way ANOVA...\nDependent List: quality5Factor: tMBG\nCheck the ANOVA table: A Sig. value &lt; 0.05 means there is a significant overall difference between at least two group means.\n\n\nGet Descriptives & Test Homogeneity of Variances\nIn One-Way ANOVA dialog, click Options...\nCheck:DescriptiveHomogeneity of variance test\nDescriptives: Shows group means (e.g., Mean of No MBG, 15 days, 30 days).Homogeneity Test (Levene’s): Decides which post-hoc test to use.\n\n\nRun Post-Hoc Tests (Find which groups differ)\nIn One-Way ANOVA dialog, click Post Hoc...\nIf variances are equal: Check ScheffeIf variances are NOT equal: Check Games-Howell\nDecision Rule:1. Look at Levene’s Test Sig. value.2. Sig. ≥ 0.05 → Use Scheffe results.3. Sig. &lt; 0.05 → Use Games-Howell results.Interpretation: In the post-hoc table, pairs with Sig. &lt; 0.05 are significantly different.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>ANOVA and Experimentation</span>"
+    ]
+  },
+  {
+    "objectID": "lab4.html#essential-concepts-step-by-step-workflow",
+    "href": "lab4.html#essential-concepts-step-by-step-workflow",
+    "title": "4  ANOVA and Experimentation",
+    "section": "5.2 💡 Essential Concepts & Step-by-Step Workflow",
+    "text": "5.2 💡 Essential Concepts & Step-by-Step Workflow\n\n5.2.1 1. The Complete One-Way ANOVA Workflow\n\nRun the Test: Analyze → Compare Means → One-Way ANOVA. Add your dependent variable (e.g., quality5) and factor (e.g., tMBG).\nCheck Assumptions: In Options, select Descriptive and Homogeneity of variance test. Run.\nChoose Post-Hoc Test: Check the “Test of Homogeneity of Variances” table.\n\nIf Sig. ≥ 0.05 → Variances equal. Use Scheffe.\nIf Sig. &lt; 0.05 → Variances not equal. Use Games-Howell.\n\nRun Post-Hoc & Interpret: Re-open dialog, go to Post Hoc, select the correct test (Scheffe or Games-Howell), and re-run. In the post-hoc table, find pairs with Sig. &lt; 0.05.\n\n\n\n5.2.2 2. Interpreting the Outputs\n\nANOVA Table: Tells you IF differences exist overall (Sig. &lt; 0.05 = significant).\nPost-Hoc Table: Tells you WHERE the differences are. Example from the lab:\n\nNo MBG vs. 30 days: Sig. = 0.013 → Significantly different.\nNo MBG vs. 15 days: Sig. = 0.080 → Not significant.\n15 days vs. 30 days: Sig. = 0.766 → Not significant.\n\nConclusion Example: “Perceived durability was significantly higher in the 30-day MBG condition than in the No MBG condition. The 15-day condition did not differ significantly from either.”",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>ANOVA and Experimentation</span>"
+    ]
+  },
+  {
+    "objectID": "lab4.html#step-by-step-practice-task",
+    "href": "lab4.html#step-by-step-practice-task",
+    "title": "4  ANOVA and Experimentation",
+    "section": "5.3 ▶️ Step-by-Step Practice Task",
+    "text": "5.3 ▶️ Step-by-Step Practice Task\n\nSet Up: Open MBGshort.sav. Go to Analyze → Compare Means → One-Way ANOVA. Add quality5 (Dependent) and tMBG (Factor).\nCheck Assumptions: Click Options. Check Descriptive and Homogeneity of variance test. Click Continue.\nRun Post-Hoc: Click Post Hoc. Since Levene’s test is not significant (p=0.906), check Scheffe. Click Continue, then OK.\nInterpret:\n\nDescriptives: What are the mean scores for the three groups?\nANOVA Table: Is the overall F-test significant (Sig. &lt; 0.05)?\nPost-Hoc Table: Which specific group pairs are significantly different?",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>ANOVA and Experimentation</span>"
+    ]
+  },
+  {
+    "objectID": "lab5.html#core-analytical-tasks",
+    "href": "lab5.html#core-analytical-tasks",
+    "title": "5  Regression",
+    "section": "6.1 🎯 Core Analytical Tasks",
+    "text": "6.1 🎯 Core Analytical Tasks\n\n\n\n\n\n\n\n\n\nTask / Objective\nSPSS Menu Path\nKey Variables / Settings\nKey Notes & Interpretation\n\n\n\n\nRun a Multiple Regression\nAnalyze → Regression → Linear...\nDependent: IntentIndependent(s): Guilt, Attract, Age, Gender\nTests if a set of independent variables predicts a continuous dependent variable.\n\n\nCheck Overall Model Fit & Significance\nOutput: ANOVA Table\nN/A\nCheck the Sig. value (p-value). p &lt; 0.05 means the overall regression model is statistically meaningful. If p &gt; 0.05, do not interpret further.\n\n\nAssess Model Explanatory Power\nOutput: Model Summary Table\nLook at Adjusted R Square\nIndicates the percentage of variance in the dependent variable explained by the model. Guidelines: ≥ 0.02 (small), ≥ 0.13 (medium), ≥ 0.26 (large).\n\n\nInterpret Individual Predictors\nOutput: Coefficients Table\nCheck Sig., B, and Beta columns\nSignificance: Sig. &lt; 0.05 = variable is a significant predictor.Strength: Compare Standardized Coefficients (Beta); higher absolute value = stronger effect.Prediction: Use Unstandardized Coefficients (B) in the regression equation.\n\n\nDiagnose Multicollinearity\n1. Correlation: Analyze → Correlate → Bivariate2. VIF: In Linear Regression dialog, click Statistics → Check Collinearity diagnostics\nCheck correlation matrix and VIF values\nProblem if: Correlation between predictors &gt; 0.7 (caution) or &gt; 0.9 (serious).Or if: VIF &gt; 10 in the coefficients table.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Regression</span>"
+    ]
+  },
+  {
+    "objectID": "lab5.html#essential-concepts-step-by-step-workflow",
+    "href": "lab5.html#essential-concepts-step-by-step-workflow",
+    "title": "5  Regression",
+    "section": "6.2 💡 Essential Concepts & Step-by-Step Workflow",
+    "text": "6.2 💡 Essential Concepts & Step-by-Step Workflow\n\n6.2.1 1. The Complete Regression Workflow\n\nRun the Regression: Analyze → Regression → Linear. Specify your dependent (Intent) and independent variables (Guilt, Attract, Age, Gender).\nCheck Overall Model: Look at the ANOVA table. Proceed only if Sig. (p) &lt; 0.05.\nCheck Explanatory Power: Look at the Adjusted R² in the Model Summary table.\nInterpret Predictors: In the Coefficients table:\n\nIdentify significant predictors (Sig. &lt; 0.05).\nUse Beta to compare the relative strength of significant predictors.\n\nCheck for Multicollinearity: Re-run regression with Collinearity diagnostics in Statistics. Ensure all VIF values are &lt; 10.\n\n\n\n6.2.2 2. Interpreting Key Outputs\n\nThe Regression Equation: Use the Unstandardized Coefficients (B) to form the equation for prediction: Intent = B₀ + (B₁ * Guilt) + (B₂ * Attract) + (B₃ * Age) + (B₄ * Gender)\nMaking a Prediction (Example from Lab Task): For a female (Gender=1), aged 20, with Guilt=3 and Attract=5:\n\nFind the B coefficients and constant from your output.\nPlug into equation: Intent = B₀ + (B₁*3) + (B₂*5) + (B₃*20) + (B₄*1)\nCalculate to predict the intention score.\n\nOne-tailed vs. Two-tailed Tests: SPSS reports two-tailed p-values. For a one-tailed test (directional hypothesis, e.g., H1: β₁ &gt; 0), divide the reported p-value by 2.\n\n\n\n6.2.3 3. Dealing with Multicollinearity\nIf you detect multicollinearity (VIF &gt; 10 or very high correlations), consider these remedies: 1. Remove Variables: Omit one of the highly correlated independent variables. 2. Combine Variables: Create a composite score (e.g., average) if the correlated variables measure a similar construct. 3. Purpose-Limited Use: Use the model only for prediction, not for interpreting individual coefficients. 4. Collect More Data: Increase your sample size.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Regression</span>"
+    ]
+  },
+  {
+    "objectID": "lab5.html#step-by-step-practice-task",
+    "href": "lab5.html#step-by-step-practice-task",
+    "title": "5  Regression",
+    "section": "6.3 ▶️ Step-by-Step Practice Task",
+    "text": "6.3 ▶️ Step-by-Step Practice Task\n\nRun the Analysis: Open RobotGLP.sav. Run Analyze → Regression → Linear with Intent as Dependent and Guilt, Attract, Age, Gender as Independents. Click OK.\nInterpret Model Fit:\n\nANOVA Table: Is the overall model significant (Sig. &lt; 0.05)?\nModel Summary: What is the Adjusted R²? How would you describe its size?\n\nInterpret Predictors: In the Coefficients table:\n\nWhich variables are significant predictors of Intent (Sig. &lt; 0.05)?\nAmong the significant ones, which has the strongest effect (largest absolute Beta value)?\n\nCheck for Multicollinearity:\n\nRe-run the regression, clicking Statistics and checking Collinearity diagnostics.\nCheck the VIF values in the new Coefficients table. Is multicollinearity a problem (VIF &gt; 10)?\n\nMake a Prediction: Use the Unstandardized Coefficients (B) to predict the Intent score for a 20-year-old female with Guilt=3 and Attract=5.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Regression</span>"
+    ]
   }
 ]

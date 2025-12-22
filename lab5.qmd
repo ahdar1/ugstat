@@ -214,7 +214,7 @@ You can deal with it using one of the following techniques:
     `Intent = B₀ + (B₁ * Guilt) + (B₂ * Attract) + (B₃ * Age) + (B₄ * Gender)`
 *   **Making a Prediction (Example from Lab Task):** For a female (`Gender=1`), aged 20, with `Guilt=3` and `Attract=5`:
     1.  Find the *B* coefficients and constant from your output.
-    2.  Plug into equation: `Intent = B₀ + (B₁*3) + (B₂*5) + (B₃*20) + (B₄*1)`
+    2.  Plug into equation: `Intent = B₀ + (B₁ * Guilt) + (B₂ * Attract) + (B₃ * Age) + (B₄ * Gender)`
     3.  Calculate to predict the intention score.
 *   **One-tailed vs. Two-tailed Tests:** SPSS reports **two-tailed p-values**. For a **one-tailed test** (directional hypothesis, e.g., `H1: β₁ > 0`), **divide the reported p-value by 2**.
 

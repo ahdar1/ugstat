@@ -525,7 +525,7 @@ Task
 <li><strong>Making a Prediction (Example from Lab Task):</strong> For a female (<code>Gender=1</code>), aged 20, with <code>Guilt=3</code> and <code>Attract=5</code>:
 <ol type="1">
 <li>Find the <em>B</em> coefficients and constant from your output.</li>
-<li>Plug into equation: <code>Intent = B₀ + (B₁*3) + (B₂*5) + (B₃*20) + (B₄*1)</code></li>
+<li>Plug into equation: <code>Intent = B₀ + (B₁ * Guilt) + (B₂ * Attract) + (B₃ * Age) + (B₄ * Gender)</code></li>
 <li>Calculate to predict the intention score.</li>
 </ol></li>
 <li><strong>One-tailed vs.&nbsp;Two-tailed Tests:</strong> SPSS reports <strong>two-tailed p-values</strong>. For a <strong>one-tailed test</strong> (directional hypothesis, e.g., <code>H1: β₁ &gt; 0</code>), <strong>divide the reported p-value by 2</strong>.</li>

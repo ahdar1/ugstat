@@ -8,3 +8,7 @@
 [1,"GET: /lab2.html\n"]
 [1,"GET: /lab3.html\n"]
 [1,"GET: /lab3.html\nWARN: connection closed before message completed\n"]
+[1,"GET: /lab4.html\n"]
+[1,"GET: /lab5.html\n"]
+[1,"GET: /lab4.html\nWARN: connection closed before message completed\n"]
+[1,"GET: /lab4.html\n"]

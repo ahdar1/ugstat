@@ -1,0 +1,8 @@
+[1,"==> quarto preview lab2.qmd --to html --no-watch-inputs --no-browse\n\n"]
+[1,"pandoc \n  to: html\n  output-file: lab2.html\n  standalone: true\n  toc: true\n  number-sections: true\n  title-prefix: MKTG212 Labs\n  section-divs: true\n  html-math-method: mathjax\n  wrap: none\n  default-image-extension: png\n  number-offset:\n    - 2\n  variables: {}\n  \nmetadata\n  crossref:\n    chapters: true\n  document-css: false\n  link-citations: true\n  date-format: long\n  lang: en\n  bibliography:\n    - references.bib\n  editor: visual\n  theme: cosmo\n  hide-description: true\n  title: \"[[2]{.chapter-number}\\_ [Descriptive Statistics, Graphs and Charts in SPSS]{.chapter-title}]{#sec-lab2 .quarto-section-identifier}\"\n  \n"]
+[1,"Output created: docs\\lab2.html\n\n"]
+[1,"Preparing to preview\n"]
+[1,"\r[1/1] index.qmd\n"]
+[1,"\n"]
+[1,"Watching files for changes\nBrowse at http://localhost:4947/lab2.html\n"]
+[1,"GET: /lab2.html\n"]

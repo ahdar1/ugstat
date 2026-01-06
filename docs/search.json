@@ -604,7 +604,7 @@
     "href": "lab2.html#step-by-step-practice-tasks",
     "title": "2  Descriptive Statistics, Graphs and Charts in SPSS",
     "section": "3.3 ▶️ Step-by-Step Practice Tasks",
-    "text": "3.3 ▶️ Step-by-Step Practice Tasks\n\nCharts: Create a pie chart for q14_gender, a bar chart for q11_grade, and a box plot for q4_sat. Remember the different “Summaries” settings.\nReliability & Computation:\n\nRun Reliability Analysis on q10_op1, q10_op2, q10_op3.\nVerify Alpha is high (0.927), then compute Opinion_avg using Compute Variable.\n\nExplore: Run Descriptives on Opinion_avg and make a boxplot for it.\n\n\nNeed a cheat sheet for Workshop 3 (Crosstabs and t-tests)? Just ask!",
+    "text": "3.3 ▶️ Step-by-Step Practice Tasks\n\nCharts: Create a pie chart for q14_gender, a bar chart for q11_grade, and a box plot for q4_sat. Remember the different “Summaries” settings.\nReliability & Computation:\n\nRun Reliability Analysis on q10_op1, q10_op2, q10_op3.\nVerify Alpha is high (0.927), then compute Opinion_avg using Compute Variable.\n\nExplore: Run Descriptives on Opinion_avg and make a boxplot for it.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Descriptive Statistics, Graphs and Charts in SPSS</span>"
     ]

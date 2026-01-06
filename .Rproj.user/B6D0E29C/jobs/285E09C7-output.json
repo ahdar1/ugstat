@@ -6,3 +6,5 @@
 [1,"\n"]
 [1,"Watching files for changes\nBrowse at http://localhost:4947/lab2.html\n"]
 [1,"GET: /lab2.html\n"]
+[1,"GET: /lab3.html\n"]
+[1,"GET: /lab3.html\nWARN: connection closed before message completed\n"]

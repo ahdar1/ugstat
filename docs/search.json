@@ -634,7 +634,7 @@
     "href": "lab3.html#step-by-step-practice-tasks",
     "title": "3  Crosstabs and Two Independent Samples T-test",
     "section": "4.3 ▶️ Step-by-Step Practice Tasks",
-    "text": "4.3 ▶️ Step-by-Step Practice Tasks\n\nChi-Square Analysis:\n\nTest association: q14_gender (Column) vs. q1_online (Row).\nGet chi-square statistic, p-value, and Phi.\nQuestion: Is the association significant? How strong is it (Phi)?\n\nIndependent T-Test:\n\nRun t-test: Opinion_avg by q14_gender.\nCheck Levene’s test, then the correct t-test p-value.\nCheck Cohen’s d in the effect size table.\nQuestion: Is the mean difference significant? What is the effect size?\n\nAdditional Practice Task:\n\nCompare satisfaction (q4_sat) between loyalty program groups (Q15_loyal).\n\n\n\nNeed a cheat sheet for Workshop 4 (ANOVA and Experimentation)? Just ask!",
+    "text": "4.3 ▶️ Step-by-Step Practice Tasks\n\nChi-Square Analysis:\n\nTest association: q14_gender (Column) vs. q1_online (Row).\nGet chi-square statistic, p-value, and Phi.\nQuestion: Is the association significant? How strong is it (Phi)?\n\nIndependent T-Test:\n\nRun t-test: Opinion_avg by q14_gender.\nCheck Levene’s test, then the correct t-test p-value.\nCheck Cohen’s d in the effect size table.\nQuestion: Is the mean difference significant? What is the effect size?\n\nAdditional Practice Task:\n\nCompare satisfaction (q4_sat) between loyalty program groups (Q15_loyal).",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Crosstabs and Two Independent Samples T-test</span>"
     ]

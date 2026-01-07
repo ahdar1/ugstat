@@ -1,0 +1,94 @@
+{
+    "sources": [
+        {
+            "DOI": "10.1093/comjnl/27.2.97",
+            "ISSN": "0010-4620",
+            "URL": "https://doi.org/10.1093/comjnl/27.2.97",
+            "author": [
+                {
+                    "family": "Knuth",
+                    "given": "Donald E."
+                }
+            ],
+            "container-title": "Comput. J.",
+            "id": "knuth84",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        1984,
+                        5
+                    ]
+                ]
+            },
+            "page": "97-111",
+            "publisher": "Oxford University Press, Inc.",
+            "publisher-place": "USA",
+            "title": "Literate programming",
+            "type": "article-journal",
+            "volume": "27"
+        },
+        {
+            "author": [
+                {
+                    "family": "Feick",
+                    "given": "Lawrence F"
+                },
+                {
+                    "family": "Price",
+                    "given": "Linda L"
+                }
+            ],
+            "container-title": "Journal of marketing",
+            "id": "feick1987market",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        1987
+                    ]
+                ]
+            },
+            "page": "83-97",
+            "publisher": "SAGE Publications Sage CA: Los Angeles, CA",
+            "title": "The market maven: A diffuser of marketplace information",
+            "title-short": "The market maven",
+            "type": "article-journal",
+            "volume": "51"
+        },
+        {
+            "author": [
+                {
+                    "family": "Goldsmith",
+                    "given": "Ronald E"
+                },
+                {
+                    "family": "Flynn",
+                    "given": "Leisa R"
+                },
+                {
+                    "family": "Goldsmith",
+                    "given": "Elizabeth B"
+                }
+            ],
+            "container-title": "Journal of Marketing theory and practice",
+            "id": "goldsmith2003innovative",
+            "issue": "4",
+            "issued": {
+                "date-parts": [
+                    [
+                        2003
+                    ]
+                ]
+            },
+            "page": "54-65",
+            "publisher": "Taylor & Francis",
+            "title": "Innovative consumers and market mavens",
+            "type": "article-journal",
+            "volume": "11"
+        }
+    ],
+    "project_biblios": [
+        "references.bib"
+    ]
+}

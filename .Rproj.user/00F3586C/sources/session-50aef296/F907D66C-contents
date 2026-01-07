@@ -1,0 +1,77 @@
+# Preface {.unnumbered}
+
+This is a website for the workshops of MKTG212 (Quantitative Methods).
+
+## The Team
+
+Module leader: [Professor Ahmad Daryanto](https://sites.google.com/view/ahmaddaryanto)
+
+Tutor:
+
+-   [Dr. Rebecca Liu](https://www.lancaster.ac.uk/lums/people/rebecca-liu)
+
+-   [Dr. Wasim Ahmad](https://www.lancaster.ac.uk/lums/people/wasim-ahmad)
+
+## SPSS Version
+
+We use SPSS version 30, which can be launched from **Apporto** app located on the Moodle page of the course. I created the lab notes initially using SPSS version 28. I have tried my best to amend the text and outputs discussed in the lab notes using those from ver. 30. Actually, no significant differences between the outputs of ver. 28 version and those of ver. 30. If you detect any differences, please drop me an email. Nevertheless, the video lectures were still based on ver. 28.
+
+## Workshop Materials
+
+SPSS data can be downloaded from [Moodle](https://modules.lancaster.ac.uk/course/view.php?id=41667)
+
+## Textbook
+
+Any marketing research or quantitative research textbook can be used to support your learning, in particular, I recommend the following text:
+
+![](images/Malhotra.jpg){width="184" style="float: left; margin-right: 30px; margin-bottom: 20px;"}
+
+**Malhotra, NK. (2014), Essentials of Marketing Research, London: Pearson.** An excellent text covering both qualitative and quantitative aspects of Market Research. A valuable text well worth adding to your library. Malhotra wrote several textbooks on marketing research. This textbook is one of his finest.
+
+::: {style="clear: both; margin-bottom: 40px;"}
+:::
+
+![](images/iqrm_cover.jpg){width="184" style="float: left; margin-right: 30px; margin-bottom: 20px;"}
+
+**Daryanto, Ahmad. (2025), [An Introduction to Quantitative Research Methods for Marketing: Tools and Techniques Using SPSS and R](https://www.routledge.com/An-Introduction-to-Quantitative-Research-Methods-for-Marketing-Tools-and-Techniques-Using-SPSS-and-R/Daryanto/p/book/9781032525648?srsltid=AfmBOor0PTqaQJxIXTTzPVyjEkcR-sDaVv3IpaZwtdrmlxbDWMFOKYAe), 1st Edition, Routledge.** This book is written by yours truly. It will be useful for those who wants to learn SPSS in more depth and R. As stated in the publisher website, this is "a very applied text designed to make this complex subject accessible to students with no background in quantitative methods, this book is valuable recommended and core reading for advanced undergraduate and postgraduate." If your laptop is connected to the university's eduroam network, the book can be accessed via [ProQuest Ebook Central](https://ebookcentral.proquest.com/lib/lancaster/detail.action?docID=31807359) or [OneSearch](https://onesearch.lancaster-university.uk/discovery/search?vid=44LAN_INST:LUL_VU1).
+
+::: {style="clear: both;"}
+:::
+
+------------------------------------------------------------------------
+
+```{=html}
+<!-- This  won't appear in the output 
+## Supplemental reading
+
+It is important that you understand the key statistical concepts covered in the module. 
+Without the understanding of these concepts, you will not fully appreciate the contents of the workshops. In addition to the supporting book above, you can read materials on the following website to revisit the key statistical concepts discussed in the class/workshops.
+
+[Key statistical concepts](https://ahdar1.github.io/statconcepts/)
+
+-->
+```
+
+# Workshop Overview
+
+## Workshop [1. Getting started with SPSS](#sec-lab1)
+
+Tasks: In this workshop, we will label variables, create new ones, and code scales.
+
+## Workshop [2. Descriptive statistics, graphs and charts in SPSS](#sec-lab2)
+
+Tasks: In this workshop, we will use SPSS to produce descriptive statistics, graphs and charts for different types of variables.
+
+## Workshop [3. Crosstabs and two independent samples t-test](#sec-lab3)
+
+Tasks: This is the first of the bivariate analysis workshops. Here we will look at the analysis of 2 sets of nominal data in a cross tabulation and use a Chi-square test to determine whether a significant difference between the groups has occurred. In the second part of the workshop, we will look at the analysis of mean scores, i.e., comparing mean scores of two groups with two independent samples T-test.
+
+## Workshop [4. ANOVA and Experimentation](#sec-lab4)
+
+Tasks: Here we will use SPSS to compare the mean scores of two or more nominal groups. Using one-way ANOVA, we will determine if significant differences exists between two groups or more. Then we will look two-way ANOVA, specifically a 2x3 ANOVA between-subject design.
+
+## Workshop [5. Regression](#sec-lab5)
+
+Tasks: Using correlation we will determine the nature of the association between two sets of interval or ratio data. Then using linear regressions, we will develop a model to examine the influence of a set of independent variables on one dependent variable.
+
+{{< pagebreak >}}

@@ -190,16 +190,6 @@ window.Quarto = {
   <li><a href="#post-hoc-test" id="toc-post-hoc-test" class="nav-link" data-scroll-target="#post-hoc-test"><span class="header-section-number">4.3.2</span> Post Hoc Test</a></li>
   </ul></li>
   <li><a href="#video" id="toc-video" class="nav-link" data-scroll-target="#video"><span class="header-section-number">4.4</span> Video</a></li>
-  <li><a href="#spss-workshop-4-quick-task-guide" id="toc-spss-workshop-4-quick-task-guide" class="nav-link" data-scroll-target="#spss-workshop-4-quick-task-guide"><span class="header-section-number">5</span> SPSS Workshop 4: Quick Task Guide</a>
-  <ul class="collapse">
-  <li><a href="#core-analytical-tasks" id="toc-core-analytical-tasks" class="nav-link" data-scroll-target="#core-analytical-tasks"><span class="header-section-number">5.1</span> 🎯 Core Analytical Tasks</a></li>
-  <li><a href="#essential-concepts-step-by-step-workflow" id="toc-essential-concepts-step-by-step-workflow" class="nav-link" data-scroll-target="#essential-concepts-step-by-step-workflow"><span class="header-section-number">5.2</span> 💡 Essential Concepts &amp; Step-by-Step Workflow</a>
-  <ul class="collapse">
-  <li><a href="#the-complete-one-way-anova-workflow" id="toc-the-complete-one-way-anova-workflow" class="nav-link" data-scroll-target="#the-complete-one-way-anova-workflow"><span class="header-section-number">5.2.1</span> 1. The Complete One-Way ANOVA Workflow</a></li>
-  <li><a href="#interpreting-the-outputs" id="toc-interpreting-the-outputs" class="nav-link" data-scroll-target="#interpreting-the-outputs"><span class="header-section-number">5.2.2</span> 2. Interpreting the Outputs</a></li>
-  </ul></li>
-  <li><a href="#step-by-step-practice-task" id="toc-step-by-step-practice-task" class="nav-link" data-scroll-target="#step-by-step-practice-task"><span class="header-section-number">5.3</span> ▶️ Step-by-Step Practice Task</a></li>
-  </ul></li>
   </ul>
 </nav>
     </div>
@@ -300,94 +290,52 @@ Tip
 <section id="video" class="level2" data-number="4.4">
 <h2 data-number="4.4" class="anchored" data-anchor-id="video"><span class="header-section-number">4.4</span> Video</h2>
 <p><a href="https://dtu-panopto.lancs.ac.uk/Panopto/Pages/Viewer.aspx?id=4f7d12dd-f094-46c6-8905-acab010a1756">One-way ANOVA</a></p>
-</section>
-<section id="spss-workshop-4-quick-task-guide" class="level1" data-number="5">
-<h1 data-number="5"><span class="header-section-number">5</span> SPSS Workshop 4: Quick Task Guide</h1>
-<section id="core-analytical-tasks" class="level2" data-number="5.1">
-<h2 data-number="5.1" class="anchored" data-anchor-id="core-analytical-tasks"><span class="header-section-number">5.1</span> 🎯 Core Analytical Tasks</h2>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Task / Objective</th>
-<th style="text-align: left;">SPSS Menu Path</th>
-<th style="text-align: left;">Key Variables / Settings</th>
-<th style="text-align: left;">Key Notes &amp; Interpretation</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><strong>Run a One-Way ANOVA</strong> (Compare means across 3+ groups)</td>
-<td style="text-align: left;"><code>Analyze</code> → <code>Compare Means</code> → <code>One-Way ANOVA...</code></td>
-<td style="text-align: left;"><strong>Dependent List:</strong> <code>quality5</code><br><strong>Factor:</strong> <code>tMBG</code></td>
-<td style="text-align: left;"><strong>Check the ANOVA table:</strong> A <strong>Sig. value &lt; 0.05</strong> means there is a significant overall difference between at least two group means.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Get Descriptives &amp; Test Homogeneity of Variances</strong></td>
-<td style="text-align: left;">In One-Way ANOVA dialog, click <code>Options...</code></td>
-<td style="text-align: left;">Check:<br><code>Descriptive</code><br><code>Homogeneity of variance test</code></td>
-<td style="text-align: left;"><strong>Descriptives:</strong> Shows group means (e.g., Mean of No MBG, 15 days, 30 days).<br><strong>Homogeneity Test (Levene’s):</strong> Decides which <em>post-hoc</em> test to use.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>Run Post-Hoc Tests</strong> (Find <em>which</em> groups differ)</td>
-<td style="text-align: left;">In One-Way ANOVA dialog, click <code>Post Hoc...</code></td>
-<td style="text-align: left;"><strong>If variances are equal:</strong> Check <code>Scheffe</code><br><strong>If variances are NOT equal:</strong> Check <code>Games-Howell</code></td>
-<td style="text-align: left;"><strong>Decision Rule:</strong><br>1. Look at Levene’s Test <strong>Sig.</strong> value.<br>2. <strong>Sig. ≥ 0.05</strong> → Use <strong>Scheffe</strong> results.<br>3. <strong>Sig. &lt; 0.05</strong> → Use <strong>Games-Howell</strong> results.<br><strong>Interpretation:</strong> In the post-hoc table, pairs with <strong>Sig. &lt; 0.05</strong> are significantly different.</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="essential-concepts-step-by-step-workflow" class="level2" data-number="5.2">
-<h2 data-number="5.2" class="anchored" data-anchor-id="essential-concepts-step-by-step-workflow"><span class="header-section-number">5.2</span> 💡 Essential Concepts &amp; Step-by-Step Workflow</h2>
-<section id="the-complete-one-way-anova-workflow" class="level3" data-number="5.2.1">
-<h3 data-number="5.2.1" class="anchored" data-anchor-id="the-complete-one-way-anova-workflow"><span class="header-section-number">5.2.1</span> 1. The Complete One-Way ANOVA Workflow</h3>
-<ol type="1">
-<li><strong>Run the Test:</strong> <code>Analyze</code> → <code>Compare Means</code> → <code>One-Way ANOVA</code>. Add your <strong>dependent variable</strong> (e.g., <code>quality5</code>) and <strong>factor</strong> (e.g., <code>tMBG</code>).</li>
-<li><strong>Check Assumptions:</strong> In <code>Options</code>, select <code>Descriptive</code> and <code>Homogeneity of variance test</code>. Run.</li>
-<li><strong>Choose Post-Hoc Test:</strong> Check the <strong>“Test of Homogeneity of Variances”</strong> table.
-<ul>
-<li><strong>If Sig. ≥ 0.05</strong> → Variances equal. Use <strong>Scheffe</strong>.</li>
-<li><strong>If Sig. &lt; 0.05</strong> → Variances not equal. Use <strong>Games-Howell</strong>.</li>
-</ul></li>
-<li><strong>Run Post-Hoc &amp; Interpret:</strong> Re-open dialog, go to <code>Post Hoc</code>, select the correct test (Scheffe or Games-Howell), and re-run. In the post-hoc table, find pairs with <strong>Sig. &lt; 0.05</strong>.</li>
-</ol>
-</section>
-<section id="interpreting-the-outputs" class="level3" data-number="5.2.2">
-<h3 data-number="5.2.2" class="anchored" data-anchor-id="interpreting-the-outputs"><span class="header-section-number">5.2.2</span> 2. Interpreting the Outputs</h3>
-<ul>
-<li><strong>ANOVA Table:</strong> Tells you <strong>IF</strong> differences exist overall (<strong>Sig. &lt; 0.05</strong> = significant).</li>
-<li><strong>Post-Hoc Table:</strong> Tells you <strong>WHERE</strong> the differences are. <strong>Example from the lab:</strong>
-<ul>
-<li><code>No MBG</code> vs.&nbsp;<code>30 days</code>: <strong>Sig. = 0.013</strong> → <strong>Significantly different.</strong></li>
-<li><code>No MBG</code> vs.&nbsp;<code>15 days</code>: <strong>Sig. = 0.080</strong> → <strong>Not significant.</strong></li>
-<li><code>15 days</code> vs.&nbsp;<code>30 days</code>: <strong>Sig. = 0.766</strong> → <strong>Not significant.</strong></li>
-</ul></li>
-<li><strong>Conclusion Example:</strong> “Perceived durability was significantly higher in the 30-day MBG condition than in the No MBG condition. The 15-day condition did not differ significantly from either.”</li>
-</ul>
-</section>
-</section>
-<section id="step-by-step-practice-task" class="level2" data-number="5.3">
-<h2 data-number="5.3" class="anchored" data-anchor-id="step-by-step-practice-task"><span class="header-section-number">5.3</span> ▶️ Step-by-Step Practice Task</h2>
-<ol type="1">
-<li><strong>Set Up:</strong> Open <code>MBGshort.sav</code>. Go to <code>Analyze</code> → <code>Compare Means</code> → <code>One-Way ANOVA</code>. Add <code>quality5</code> (Dependent) and <code>tMBG</code> (Factor).</li>
-<li><strong>Check Assumptions:</strong> Click <code>Options</code>. Check <code>Descriptive</code> and <code>Homogeneity of variance test</code>. Click <code>Continue</code>.</li>
-<li><strong>Run Post-Hoc:</strong> Click <code>Post Hoc</code>. Since Levene’s test is not significant (p=0.906), check <code>Scheffe</code>. Click <code>Continue</code>, then <code>OK</code>.</li>
-<li><strong>Interpret:</strong>
-<ul>
-<li><strong>Descriptives:</strong> What are the mean scores for the three groups?</li>
-<li><strong>ANOVA Table:</strong> Is the overall F-test significant (Sig. &lt; 0.05)?</li>
-<li><strong>Post-Hoc Table:</strong> Which specific group pairs are significantly different?</li>
-</ul></li>
-</ol>
-<hr>
+<!-- This  won't appear in the output 
+
+# SPSS Workshop 4: Quick Task Guide
+
+## 🎯 Core Analytical Tasks
+
+| Task / Objective | SPSS Menu Path | Key Variables / Settings | Key Notes & Interpretation |
+|:-----------------|:-----------------|:-----------------|:-----------------|
+| **Run a One-Way ANOVA** (Compare means across 3+ groups) | `Analyze` → `Compare Means` → `One-Way ANOVA...` | **Dependent List:** `quality5`<br>**Factor:** `tMBG` | **Check the ANOVA table:** A **Sig. value \< 0.05** means there is a significant overall difference between at least two group means. |
+| **Get Descriptives & Test Homogeneity of Variances** | In One-Way ANOVA dialog, click `Options...` | Check:<br>`Descriptive`<br>`Homogeneity of variance test` | **Descriptives:** Shows group means (e.g., Mean of No MBG, 15 days, 30 days).<br>**Homogeneity Test (Levene's):** Decides which *post-hoc* test to use. |
+| **Run Post-Hoc Tests** (Find *which* groups differ) | In One-Way ANOVA dialog, click `Post Hoc...` | **If variances are equal:** Check `Scheffe`<br>**If variances are NOT equal:** Check `Games-Howell` | **Decision Rule:**<br>1. Look at Levene's Test **Sig.** value.<br>2. **Sig. ≥ 0.05** → Use **Scheffe** results.<br>3. **Sig. \< 0.05** → Use **Games-Howell** results.<br>**Interpretation:** In the post-hoc table, pairs with **Sig. \< 0.05** are significantly different. |
+
+## 💡 Essential Concepts & Step-by-Step Workflow
+
+### 1. The Complete One-Way ANOVA Workflow
+
+1.  **Run the Test:** `Analyze` → `Compare Means` → `One-Way ANOVA`. Add your **dependent variable** (e.g., `quality5`) and **factor** (e.g., `tMBG`).
+2.  **Check Assumptions:** In `Options`, select `Descriptive` and `Homogeneity of variance test`. Run.
+3.  **Choose Post-Hoc Test:** Check the **"Test of Homogeneity of Variances"** table.
+    -   **If Sig. ≥ 0.05** → Variances equal. Use **Scheffe**.
+    -   **If Sig. \< 0.05** → Variances not equal. Use **Games-Howell**.
+4.  **Run Post-Hoc & Interpret:** Re-open dialog, go to `Post Hoc`, select the correct test (Scheffe or Games-Howell), and re-run. In the post-hoc table, find pairs with **Sig. \< 0.05**.
+
+### 2. Interpreting the Outputs
+
+-   **ANOVA Table:** Tells you **IF** differences exist overall (**Sig. \< 0.05** = significant).
+-   **Post-Hoc Table:** Tells you **WHERE** the differences are. **Example from the lab:**
+    -   `No MBG` vs. `30 days`: **Sig. = 0.013** → **Significantly different.**
+    -   `No MBG` vs. `15 days`: **Sig. = 0.080** → **Not significant.**
+    -   `15 days` vs. `30 days`: **Sig. = 0.766** → **Not significant.**
+-   **Conclusion Example:** "Perceived durability was significantly higher in the 30-day MBG condition than in the No MBG condition. The 15-day condition did not differ significantly from either."
+
+## ▶️ Step-by-Step Practice Task
+
+1.  **Set Up:** Open `MBGshort.sav`. Go to `Analyze` → `Compare Means` → `One-Way ANOVA`. Add `quality5` (Dependent) and `tMBG` (Factor).
+2.  **Check Assumptions:** Click `Options`. Check `Descriptive` and `Homogeneity of variance test`. Click `Continue`.
+3.  **Run Post-Hoc:** Click `Post Hoc`. Since Levene's test is not significant (p=0.906), check `Scheffe`. Click `Continue`, then `OK`.
+4.  **Interpret:**
+    -   **Descriptives:** What are the mean scores for the three groups?
+    -   **ANOVA Table:** Is the overall F-test significant (Sig. \< 0.05)?
+    -   **Post-Hoc Table:** Which specific group pairs are significantly different?
+
+------------------------------------------------------------------------
+-->
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

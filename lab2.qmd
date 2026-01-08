@@ -80,6 +80,9 @@ Feick, L. F., & Price, L. L. (1987). The market maven: A diffuser of marketplace
 
 Goldsmith, R. E., Flynn, L. R., & Goldsmith, E. B. (2003). Innovative consumers and market mavens. *Journal of Marketing Theory and Practice*, 11(4), 54-65.
 
+```{=html}
+<!-- This  won't appear in the output 
+
 # SPSS Lab 2: Quick Task Guide
 
 ## 📊 Core Analytical Tasks
@@ -117,3 +120,5 @@ For professional graphs, **double-click any chart** in the output to open the **
 3.  **Explore:** Run `Descriptives` on `Opinion_avg` and make a boxplot for it.
 
 ------------------------------------------------------------------------
+-->
+```

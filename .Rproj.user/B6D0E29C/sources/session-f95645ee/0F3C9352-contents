@@ -85,7 +85,7 @@ Goldsmith, R. E., Flynn, L. R., & Goldsmith, E. B. (2003). Innovative consumers 
 ## 📊 Core Analytical Tasks
 
 | Task / Objective | SPSS Menu Path | Key Variable Examples | Key Notes & Shortcuts |
-|:-----------------|:-----------------|:-----------------|:-----------------|
+|:---|:---|:---|:---|
 | **Create & Customize Charts** | `Graphs` → Select graph | `q14_gender` (Pie)<br>`q11_grade` (Bar)<br>`q4_sat` (Box Plot) | **Chart Type Logic:**<br>- **Bar/Pie**: Use "Summaries for groups of cases".<br>- **Box Plot**: Use "Summaries for separate variables".<br>- **Edit**: Double-click output chart to open editor for colors, labels, titles. |
 | **Generate Descriptive Statistics** | `Analyze` → `Descriptive Statistics` → `Descriptives...` | `q4_sat`<br>`q16_spent` | Outputs N, Mean, Std. Deviation, Min, Max. |
 | **Check Scale Reliability (Cronbach's Alpha)** | `Analyze` → `Scale` → `Reliability Analysis...` | `q10_op1`, `q10_op2`, `q10_op3` | **Rule:** Alpha ≥ 0.7 = reliable.<br>**Diagnose:** In dialog, click `Statistics` → check `Scale if item deleted`. |

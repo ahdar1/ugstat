@@ -1,14 +1,14 @@
 {
-    "id": "7ABA215A",
-    "path": "C:/Users/daryanto/OneDrive - Lancaster University/Documents/GitHub/ugstat/lab2.qmd",
-    "project_path": "lab2.qmd",
+    "id": "814D7521",
+    "path": "C:/Users/daryanto/OneDrive - Lancaster University/Documents/GitHub/ugstat/lab5.qmd",
+    "project_path": "lab5.qmd",
     "type": "quarto_markdown",
-    "hash": "2598770295",
+    "hash": "0",
     "contents": "",
-    "dirty": false,
-    "created": 1767876475737.0,
+    "dirty": true,
+    "created": 1767971963462.0,
     "source_on_save": false,
-    "relative_order": 2,
+    "relative_order": 3,
     "properties": {
         "rmdVisualMode": "true",
         "rmdVisualWrapConfigured": "true",
@@ -18,14 +18,14 @@
         "rmdVisualCollapsedChunks": "",
         "cursorPosition": "0,0",
         "scrollLine": "0",
-        "rmdVisualModeLocation": "2:3033"
+        "rmdVisualModeLocation": "2:7188"
     },
     "folds": "",
     "lastKnownWriteTime": 1767876452,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1767876452,
+    "last_content_update": 1767971967222,
     "read_only": false,
     "read_only_alternatives": []
 }

@@ -184,7 +184,6 @@ You can deal with it using one of the following techniques:
 
 [Regression with a categorical iv](https://dtu-panopto.lancs.ac.uk/Panopto/Pages/Viewer.aspx?id=074239e8-f79d-4ffb-8754-ac9400f4f00f)
 
-
 ```{=html}
 <!-- This  won't appear in the output 
 

@@ -17,7 +17,7 @@ At the end of this lab, we hope that you will be able to
 -   Understand the meaning of multicollinearity, how to detect and remedy it
 
 ::: callout-important
-FYI, many students of the previous cohorts used regression when they wrote their MSc dissertations.
+Mastery in regression is not just an academic exercise — it is how businesses answer critical questions. Does price affect sales? Which marketing channel delivers the best ROI? What drives customer loyalty? Regression gives you the evidence. Without it, you are simply describing what happened. With it, you can explain why and predict what comes next.
 :::
 
 ## Why Regression

@@ -16,6 +16,22 @@ Tutor:
 
 We use SPSS version 30, which can be launched from **Apporto** app located on the Moodle page of the course. I created the lab notes initially using SPSS version 28. I have tried my best to amend the text and outputs discussed in the lab notes using those from ver. 30. Actually, no significant differences between the outputs of ver. 28 version and those of ver. 30. If you detect any differences, please drop me an email. Nevertheless, the video lectures were still based on ver. 28.
 
+## Schedule 
+
+| Type | Weeks | Day | Time | Tutor | Room |
+|------|-------|-----|------|-------|------|
+| **Lecture**  | 2–7 | Fri   | 14:00–16:00 | AD | MNGT LT 01 |
+| Workshop | 3-7 | Mon   | 15:00–16:00 | AD | Fylde PC Lab C17 |
+| Workshop | 3-7 | Mon   | 16:00–17:00 | AD | County Main PC Lab A004|
+| Workshop | 3-7 | Tue   | 11:00–12:00 | RL | Ash House PC Lab 1 |
+| Workshop | 3–7 | Tue   | 12:00–13:00 | RL | County Main A044 |
+| Workshop | 3–7 | Tue   | 16:00–17:00 | RL | Bowland North A064 |
+| Workshop | 3–7 | Thurs | 15:00–16:00 | AD | Bowland North A064 |
+
+::: {.callout-note title="Workshop allocation"}
+You are allocated to one of the above workshops.
+:::
+
 ## Workshop Materials
 
 SPSS data and readings can be downloaded from [Moodle](https://modules.lancaster.ac.uk/course/section.php?id=582568)

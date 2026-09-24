@@ -3,10 +3,10 @@ project:
   output-dir: docs
 
 book:
-  title: "MKTG212 Labs"
+  title: "MKTG5001 Labs"
   author: "Ahmad Daryanto"
-  date: 12/08/2025
-  date-format: long
+  date: 2026-09-24
+  date-format: "DD/MM/YYYY"
   chapters:
     - index.qmd
     - lab1.qmd

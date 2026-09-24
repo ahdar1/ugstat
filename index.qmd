@@ -18,7 +18,7 @@ We use SPSS version 30, which can be launched from **Apporto** app located on th
 
 ## Workshop Materials
 
-SPSS data can be downloaded from [Moodle](https://modules.lancaster.ac.uk/course/section.php?id=561270)
+SPSS data and readings can be downloaded from [Moodle](https://modules.lancaster.ac.uk/course/section.php?id=582568)
 
 ## Textbook
 

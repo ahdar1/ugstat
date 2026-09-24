@@ -20,7 +20,7 @@ We use SPSS version 30, which can be launched from **Apporto** app located on th
 
 
 ::: {.callout-note title="Workshop allocation"}
-You have been allocated to an online workshop slot -- Check your timetable.
+You have been allocated to a workshop slot -- Check your timetable.
 :::
 
 
